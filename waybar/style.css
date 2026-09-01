@@ -1,0 +1,293 @@
+
+@import "colors.css";
+
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font", "MesloLGS Nerd Font", "Font Awesome","Noto Sans CJK", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  min-height: 0;
+}
+
+@import "style/theme.css";
+
+window#waybar {
+  background: alpha(@background, 0.4);
+  color: @on_background;
+  border-radius: 0px;
+}
+
+tooltip {
+  background: alpha(@surface, 0.8);
+  border-radius: 0px;
+  padding: 3px;
+}
+
+tooltip label {
+  font-size: 16px;
+  color: @on_surface;
+}
+
+#workspaces button {
+  padding: 0px 4px 0px 4px;
+  color: @on_surface_variant;
+  margin-right: 0px;
+  background-color: transparent;
+}
+
+#workspaces button.active {
+  color: @on_primary;
+  background: @primary;
+  padding: 0 10px;
+  margin: 0px 3px;
+  border-radius: 10px;
+}
+
+#workspaces button.focused {
+  color: @primary;
+  background: transparent;
+  border: none;
+}
+
+#workspaces button.urgent {
+  color: @on_error;
+  background: @error;
+  border: none;
+}
+
+#workspaces button:hover {
+  background: alpha(@surface_container_highest, 0.8);
+  color: @on_surface;
+  border: none;
+  padding: 0px 4px 0px 10px;
+}
+
+#taskbar button {
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0px;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  transition: all 0.5s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#taskbar button.active {
+  background: @secondary_container;
+  color: @on_secondary_container;
+  margin-left: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 3px;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#taskbar button:hover {
+  background: @surface_container_high;
+  color: @on_surface;
+  padding-left: 3px;
+  padding-right: 3px;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#custom-lock_screen,
+#custom-power_btn,
+#custom-updater,
+#custom-system,
+#window,
+#cpu,
+#disk,
+#custom-updates,
+#custom-clipboard,
+#memory,
+#clock,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#taskbar,
+#custom-notify,
+#battery,
+#mpris,
+#custom-nightlight,
+#hyprland-keyboard,
+#power-profiles-daemon,
+#backlight {
+  background-color: transparent;
+  opacity: 0.9;
+  color: @on_background;
+  padding: 0px 6px;
+  margin: 3px 0px;
+}
+
+#bluetooth,
+#custom-firefox,
+#custom-nemo,
+#custom-neovim,
+#custom-kitty,
+#custom-vscode {
+  background-color: transparent;
+  opacity: 0.9;
+  color: @on_background;
+  padding: 1px 5px;
+  margin: 1px 5px;
+  font-size: 18px;
+}
+
+#custom-theme {
+  margin-right: 15px;
+}
+
+#custom-system {
+  margin: 3px 10px;
+  padding: 0 10px;
+  padding-right: 15px;
+  background: transparent;
+}
+
+#custom-notify {
+  border-radius: 0px;
+  padding: 0 15px;
+  padding-right: 10px;
+}
+
+#custom-nightlight {
+  border-radius: 0;
+}
+
+#battery {
+  color: @primary;
+  background-color: transparent;
+  margin-right: 0;
+  font-size: 14px;
+}
+
+@keyframes blink {
+  to {
+    background-color: @on_error;
+    color: @error;
+  }
+}
+
+#battery.critical:not(.charging) {
+  color: @error;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#custom-clipboard {
+  background-color: transparent;
+  border-radius: 0 0px 0px 0;
+  font-size: 14px;
+  padding-right: 15px;
+}
+
+#custom-power_btn {
+  color: @error;
+  padding-right: 10px;
+  margin-right: 8px;
+  border-radius: 0px;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+#taskbar {
+  border-radius: 0px;
+}
+
+#network.speed {
+  background-color: transparent;
+  font-size: 14px;
+}
+
+#custom-updater {
+  border-radius: 0px;
+  padding: 0 15px;
+  margin-right: 10px;
+  background-color: transparent;
+}
+
+#backlight {
+  background-color: transparent;
+  padding: 0 5px;
+}
+
+#custom-lock_screen {
+  border-radius: 15px;
+  padding-right: 13px;
+}
+
+#tray {
+  margin-left: 5px;
+  background-color: transparent;
+}
+
+#temperature.critical {
+  color: @error;
+}
+
+#workspaces {
+  padding: 2px 17px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+#window {
+  border-radius: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: @on_background;
+}
+
+#pulseaudio {
+  background-color: transparent;
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0px;
+}
+
+#clock {
+  background-color: transparent;
+  border-radius: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 0 10px;
+  font-size: 15px;
+  color: @on_background;
+}
+
+#pulseaudio.microphone {
+  border-left: 0px;
+  border-right: 0px;
+  border-radius: 0 15px 15px 0;
+}
+
+#power-profiles-daemon {
+  background-color: transparent;
+  border-radius: 0px;
+  padding-right: 20px;
+  padding-left: 15px;
+}
+
+#power-profiles-daemon.performance {
+  color: @tertiary;
+  font-size: 15px;
+  padding-right: 15px;
+}
+
+#power-profiles-daemon.balanced {
+  color: @primary;
+  font-size: 16px;
+  padding-right: 15px;
+}
+
+#power-profiles-daemon.power-saver {
+  color: @secondary;
+  font-size: 15px;
+}

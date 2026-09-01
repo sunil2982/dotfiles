@@ -1,0 +1,102 @@
+{
+    //_________\\ Custom Modules //_________\\
+   
+    // power menu ( universal )
+    "custom/power_btn": {
+        "format": "",
+        "on-click": "/home/sunil/.config/rofi/powermenu.sh",
+        "tooltip": false
+    },
+
+    "custom/notify": {
+        "tooltip": true,
+        "tooltip-format": "You have<span foreground='#4A6096'> {} </span>notifications.",
+        "format": "{icon} ",
+        "format-icons": {
+            "notification": "<span foreground='red'><sup></sup></span>",
+            "none": "",
+            "dnd-notification": "<span foreground='red'><sup></sup></span>",
+            "dnd-none": "",
+            "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+            "inhibited-none": "",
+            "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+            "dnd-inhibited-none": ""
+        },
+        "return-type": "json",
+        "exec-if": "which swaync-client",
+        "exec": "swaync-client -swb",
+        "on-click": "sleep 0.1 && swaync-client -t -sw",
+        "on-click-right": "swaync-client -d -sw",
+        "escape": true
+    },
+
+    // System updater ( works for arch, fedora and opensuse also. )
+    "custom/updater": {
+        "exec": "~/.config/hypr/scripts/systemupdate.sh --check",
+        "return-type": "json",
+        "format": " {}", 
+        "on-click": "~/.config/hypr/scripts/systemupdate.sh --update",
+        "interval": 3600,
+        "tooltip": true,
+        "signal": 8
+    },
+    
+    // clipboard manager
+    "custom/clipboard": {
+        "format": "󰅌 {}",
+        "exec": "~/.config/hypr/scripts/cliphist.sh l",
+        "on-click": "~/.config/hypr/scripts/cliphist.sh c",
+        "on-click-right": "~/.config/hypr/scripts/cliphist.sh w",
+        "interval": 1,
+        "tooltip-format": "You have {} items copied"
+    },
+    
+    // Nightlight option.
+    "custom/nightlight": {
+        "format": "󰖔 ",
+        "exec": "~/.config/hypr/scripts/nightlight.sh",
+        "on-click": "~/.config/hypr/scripts/nightlight.sh --value",
+        "on-click-right": "~/.config/hypr/scripts/nightlight.sh --def",
+        "tooltip": true,
+        "tooltip-format": "Left Click: set temp 5000k\nRight Click: set temp default",
+        "interval": 1
+    },
+
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "on-scroll-up": "~/.config/hypr/scripts/volumecontrol.sh --inc",
+        "on-scroll-down": "~/.config/hypr/scripts/volumecontrol.sh --dec",
+        "orientation": "vertical"
+    },
+
+    "custom/firefox": {
+        "format": "󰈹",
+        "on-click": "firefox",
+        "tooltip-format": "Mozilla Firefox"
+    },
+
+    "custom/nemo": {
+        "format": "",
+        "on-click": "nemo",
+        "tooltip-format": "Nemo File Manager"
+    },
+
+    "custom/vscode": {
+        "format": "󰨞",
+        "on-click": "code",
+        "tooltip-format": "Visual Studio Code"
+    },
+    
+    "custom/kitty": {
+        "format": "",
+        "on-click": "kitty",
+        "tooltip-format": "Kitty"
+    },
+
+    "custom/neovim": {
+        "format": "",
+        "on-click": "kitty --class nvim-float -e nvim",
+        "tooltip-format": "Neovim"
+    }
+}

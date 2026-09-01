@@ -1,0 +1,66 @@
+{
+    // opening power menu
+    "group/power": {
+        "orientation": "inherit",
+       "drawer": {
+            "transition-duration": 300,
+            "children-class": "not-memory",
+            "transition-left-to-right": false
+       },
+       "modules": [
+            "custom/power",
+            "custom/lock",
+            "custom/logout",
+            "custom/reboot"
+       ]
+    },
+
+    // internet speed
+    "group/network": {
+        "orientation": "inherit",
+        "drawer": {
+             "transition-duration": 300,
+             "children-class": "not-memory",
+             "transition-left-to-right": false
+        },
+
+        "modules": [
+             "network",
+             "network#speed"
+        ]
+    },
+
+    // theme and wallpaper
+    "group/wall": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 300,
+            "children-class": "not-memory",
+            "transition-left-to-right": false
+        },
+
+        "modules": [
+            "custom/wallpaper",
+            "custom/theme"
+        ]
+    },
+
+    // others
+    "group/power-profiles-daemon": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 300,
+            "children-class": "not-memory",
+            "transition-left-to-right": false
+        },
+
+        "modules": [
+            "power-profiles-daemon",
+            "tray",
+            "idle_inhibitor", 
+            "custom/nightlight", 
+            "custom/clipboard", 
+        ]
+    }
+
+}

@@ -1,0 +1,48 @@
+
+{
+    "include": [
+        "$HOME/.config/waybar/modules/modules-main.jsonc",
+        "$HOME/.config/waybar/modules/modules-groups.jsonc",
+        "$HOME/.config/waybar/modules/modules-custom.jsonc"
+    ],
+
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "reload_style_on_change": true,
+    "height": 37,
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+
+    "modules-left": [        
+        "hyprland/workspaces#preview",
+        "custom/firefox",
+        "custom/nemo",
+        "custom/vscode",
+        "custom/kitty",
+        "custom/neovim"      
+    ],
+
+
+    "modules-center": [
+        "power-profiles-daemon",
+        "clock",
+        "custom/notify"
+    ],
+
+    "modules-right": [
+        "custom/updater", 
+        "bluetooth",
+        "pulseaudio", 
+        "pulseaudio#microphone",         
+        "custom/clipboard", 
+        "battery", 
+        "backlight",  
+        "group/network", 
+        "custom/power_btn"
+    ]
+}
