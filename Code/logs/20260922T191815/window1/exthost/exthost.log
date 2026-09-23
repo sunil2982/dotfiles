@@ -1,0 +1,20 @@
+2026-09-22 19:18:17.209 [info] Extension host with pid 4551 started
+2026-09-22 19:18:17.553 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-22 19:18:17.595 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-22 19:18:17.613 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-09-22 19:18:17.623 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-09-22 19:18:17.638 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-09-22 19:18:17.724 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2026-09-22 19:18:18.114 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-09-22 19:18:18.119 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2026-09-22 19:18:18.143 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2026-09-22 19:18:18.146 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2026-09-22 19:18:18.208 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-22 19:18:18.326 [info] Eager extensions activated
+2026-09-22 19:18:18.401 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 19:18:18.405 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 19:18:18.431 [info] ExtensionService#_doActivateExtension mskelton.one-dark-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 19:18:18.433 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 19:18:23.361 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-09-22 19:22:43.737 [info] Extension host terminating: received terminate message from renderer
+2026-09-22 19:22:43.757 [info] Extension host with pid 4551 exiting with code 0

@@ -1,0 +1,122 @@
+/* Inherit properties from velvet.rasi */
+@theme "velvet.rasi"
+
+configuration {
+    show-icons:                 false;
+}
+
+/* Map your specific velvet variables to a clean dark theme layout with transparency */
+* {
+    font:                        "JetBrainsMono Nerd Font 24";
+    
+    /* Layout Backgrounds with Opacity */
+    bg-window:                   @surface-transparent;      /* Translucent dark base (~80% opacity) */
+    bg-element:                  @container-transparent;    /* Translucent dark buttons */
+    
+    /* Typography & Icons */
+    fg-normal:                   @on-surface;               /* Light gray text */
+    icon-urgent:                 @error;                    /* Red icon highlight */
+    
+    /* Active / Selection States */
+    bg-selected:                 @primary;                  /* Bright cyan highlight */
+    fg-selected:                 @on-primary;               /* Deep contrast text over cyan */
+}
+
+window {
+    transparency:                "real";
+    location:                    center;
+    anchor:                      center;
+    fullscreen:                  false;
+    width:                       800px;
+    x-offset:                    0px;
+    y-offset:                    0px;
+
+    enabled:                     true;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      2px solid;
+    border-radius:               16px;
+    border-color:                @bg-selected;     /* Accent border outline */
+    cursor:                      "default";
+    background-color:            @bg-window;       /* Dynamic glass-like background */
+}
+
+mainbox {
+    enabled:                     true;
+    spacing:                     15px;
+    margin:                      0px;
+    padding:                     30px;
+    border:                      0px solid;
+    border-radius:               0px;
+    background-color:            transparent;
+    children:                    [ "inputbar", "listview" ];
+}
+
+inputbar {
+    enabled:                     true;
+    spacing:                     10px;
+    margin:                      0px;
+    padding:                     0px;
+    background-color:            transparent;
+    text-color:                  @fg-normal;
+    children:                    [ "textbox-prompt-colon", "prompt" ];
+}
+
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         "  ";
+    background-color:            transparent;
+    text-color:                  @icon-urgent;     /* Warning red */
+}
+
+prompt {
+    enabled:                     true;
+    background-color:            transparent;
+    text-color:                  @fg-normal;
+}
+
+listview {
+    enabled:                     true;
+    columns:                     5;
+    lines:                       1;
+    cycle:                       true;
+    dynamic:                     true;
+    scrollbar:                   false;
+    layout:                      vertical;
+    reverse:                     false;
+    fixed-height:                true;
+    fixed-columns:               true;
+    
+    spacing:                     15px;
+    margin:                      0px;
+    padding:                     0px;
+    background-color:            transparent;
+    text-color:                  @fg-normal;
+    cursor:                      "default";
+}
+
+element {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      0px;
+    padding:                     30px 10px;
+    border-radius:               12px;
+    background-color:            @bg-element;      /* Glass button look */
+    text-color:                  @fg-normal;
+    cursor:                      pointer;
+}
+
+element-text {
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+
+element selected.normal {
+    background-color:            @bg-selected;     /* Solid active color for stark contrast */
+    text-color:                  @fg-selected;     
+}
+

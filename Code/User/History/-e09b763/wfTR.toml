@@ -1,0 +1,102 @@
+[config]
+theme = "dark"
+scheme = "tonal-spot"
+
+#scheme-tonal-spot (default)  --->The Default & Most Balanced
+# scheme-content  -->  True to Image
+# scheme-expressive  --> Most Colorful & Vibrant
+# scheme-fidelity   -->  True to Source Color
+# scheme-fruit-salad   --> Playful & Multi-colored
+#scheme-monochrome   -->  Minimalist / Desaturated
+#scheme-neutral   -->  Subtle & Desaturated)
+# scheme-rainbow  --> Colorful & Varied
+
+
+#[config.wallpaper] this is old way it will change the wallpaper also with command """matugen image "path to image".jpg"""
+#set = true
+#command = "awww"
+#arguments = ["img", "--transition-type", "center","--transition-step", "15","--transition-fps","60"]
+
+wallpaper_command = ["awww", "img", "--transition-type", "outer", "{{ image }}"]
+
+
+[templates.hyprland]
+input_path = "/home/sunil/.config/matugen/templates/hyprland-colors.lua"
+output_path = "/home/sunil/.config/hypr/colors.lua"
+post_hook = "hyprctl reload"
+
+
+[templates.waybar]
+input_path = "/home/sunil/.config/matugen/templates/colors.css"
+output_path = "/home/sunil/.config/waybar/colors.css"
+post_hook = "pkill -SIGUSR2 waybar"
+
+[templates.kitty]
+input_path = "/home/sunil/.config/matugen/templates/kitty-color.conf"
+output_path = "/home/sunil/.config/kitty/kitty.conf"
+post_hook = 'kill -SIGUSR1 $(pgrep kitty)'
+#post_hook = "kitty +kitten themes --reload-in=all Matugen"
+# ...
+
+
+
+[templates.rofi]
+input_path = "/home/sunil/.config/matugen/templates/rofi-colors.rasi"
+output_path = "/home/sunil/.config/rofi/velvet.rasi"
+
+
+
+[templates.swaync]
+input_path = "/home/sunil/.config/matugen/templates/colors.css"
+output_path = "/home/sunil/.config/swaync/colors.css"
+post_hook = "swaync-client -rs 2>/dev/null || true"
+
+
+
+[templates.starship]
+input_path = "/home/sunil/.config/matugen/templates/My_starship.toml"
+output_path = "/home/sunil/.config/starship.toml"
+
+[templates.firefox_websites]
+input_path = '/home/sunil/.config/matugen/templates/firefox-colors.css'
+output_path = '/home/sunil/.config/matugen/generated/firefox_websites.css'
+
+
+#[templates.fastfetch]
+#input_path = "~/.config/matugen/templates/fastfetch-config.jsonc"
+#output_path = "~/.config/fastfetch/config.jsonc"
+
+
+
+
+[templates.gtk3]
+input_path = '/home/sunil/.config/matugen/templates/gtk-colors.css'
+output_path = '/home/sunil/.config/gtk-3.0/colors.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme "" && gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3-dark"'
+#post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
+
+[templates.gtk4]
+input_path = '/home/sunil/.config/matugen/templates/gtk-colors.css'
+output_path = '/home/sunil/.config/gtk-4.0/colors.css'
+post_hook = 'nemo -q'
+
+
+
+[templates.qt5ct]
+input_path = '/home/sunil/.config/matugen/templates/qtct-colors.conf'
+output_path = '/home/sunil/.config/qt5ct/colors/matugen.conf'
+
+[templates.qt6ct]
+input_path = '/home/sunil/.config/matugen/templates/qtct-colors.conf'
+output_path = '/home/sunil/.config/qt6ct/colors/matugen.conf'
+
+
+
+[templates.wlogout]
+input_path = "/home/sunil/.config/matugen/templates/colors.css"
+output_path = '/home/sunil/.config/wlogout/colors.css'
+
+
+[templates.vscode]
+input_path = '/home/sunil/.config/matugen/templates/vscode.json'
+output_path = '/home/sunil/.config/Code/User/settings.json'

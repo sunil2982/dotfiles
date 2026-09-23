@@ -1,0 +1,7 @@
+@import 'colors.css';
+
+/* Optional: Additional tweaks for Nemo UI elements if needed */
+.nemo-window {
+    background-color: @window_bg_color;
+    color: @window_fg_color;
+}

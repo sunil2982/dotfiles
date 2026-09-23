@@ -1,0 +1,14 @@
+2026-09-22 19:18:16.235 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-09-22 19:18:16.259 [warning] Creation of workbench contribution 'workbench.contrib.agentHostChatDebug' took 26ms.
+2026-09-22 19:18:16.288 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-22 19:18:16.585 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-22 19:18:16.789 [info] Started local extension host with pid 4551.
+2026-09-22 19:18:17.520 [info] [AgentHost:renderer] Protocol connection established; clientId=56b67d52-90e3-434b-9e05-ab744d39829b
+2026-09-22 19:18:18.231 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-22 19:18:18.484 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-22 19:18:18.514 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-22 19:18:18.517 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-09-22 19:18:18.520 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-09-22 19:18:18.589 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-09-22 19:18:19.657 [info] [perf] Render performance baseline is 26ms
+2026-09-22 19:18:23.368 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

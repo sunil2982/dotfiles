@@ -1,0 +1,346 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font", "MesloLGS Nerd Font", "Font Awesome";
+  font-weight: bold;
+  font-size: 12px;
+  min-height: 0;
+  color: #ffffff; /* Forces all text and icons to white globally */
+}
+
+@import "style/theme.css";
+
+window#waybar {
+  background: transparent; /* Makes the main bar completely transparent */
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+tooltip {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  padding: 3px;
+}
+
+tooltip label {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#workspaces button {
+  padding: 2px;
+  color: #ffffff;
+  margin-right: 5px;
+  background-color: transparent;
+}
+
+#workspaces button.active {
+  color: #000000; /* Dark text for contrast on white active background */
+  background: #ffffff; /* White pill for active workspace */
+  padding: 0 12px;
+  margin: 3px 0;
+  border-radius: 15px;
+}
+
+#workspaces button.focused {
+  color: #ffffff;
+  background: transparent;
+  border: none;
+}
+
+#workspaces button.urgent {
+  color: #11111b;
+  background: #f53c3c;
+  border: none;
+}
+
+#workspaces button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border: none;
+}
+
+#taskbar button {
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0px;
+  border-radius: 9px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: #ffffff;
+  background: transparent;
+}
+
+#taskbar button.active {
+  background: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  margin-left: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 3px;
+}
+
+#taskbar button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+#custom-launch_rofi,
+#custom-lock_screen,
+#custom-light_dark,
+#custom-power_btn,
+#custom-weather,
+#custom-updater,
+#custom-system,
+#window,
+#cpu,
+#disk,
+#idle_inhibitor,
+#custom-updates,
+#custom-clipboard,
+#memory,
+#clock,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#workspaces,
+#taskbar,
+#custom-notify,
+#battery,
+#mpris,
+#custom-nightlight,
+#hyprland-keyboard,
+#power-profiles-daemon,
+#backlight {
+  background: transparent; /* Removes solid background boxes from all modules */
+  opacity: 1;
+  padding: 0px 10px;
+  margin: 3px 0px;
+  color: #ffffff;
+}
+
+#custom-theme,
+#custom-wallpaper {
+  background: transparent;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+#custom-theme {
+  margin-right: 15px;
+}
+
+#custom-system {
+  margin: 3px 10px;
+  padding: 0 10px;
+  padding-right: 15px;
+  background: transparent;
+}
+
+#memory,
+#cpu,
+#disk,
+#temperature {
+  margin-right: 10px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+#idle_inhibitor {
+  font-size: 15px;
+  padding: 0 15px;
+  background: transparent;
+  margin-right: 0px;
+}
+
+#hyprland-language {
+  font-size: 15px;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+#mpris {
+  background-color: transparent;
+  padding-left: 15px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+#custom-notify {
+  padding: 0 15px;
+  padding-right: 10px;
+  background: transparent;
+}
+
+#custom-nightlight {
+  border-radius: 0;
+  background: transparent;
+}
+
+#battery {
+  color: #ffffff; /* Changed from green to white to match your request */
+  background-color: transparent;
+  margin-right: 0;
+  font-size: 14px;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: #333333;
+  }
+}
+
+#battery.critical:not(.charging) {
+  color: #f53c3c;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#custom-clipboard {
+  font-size: 14px;
+  padding-right: 15px;
+  background: transparent;
+}
+
+#custom-wallpaper-change {
+  font-size: 16px;
+  padding-right: 20px;
+  background: transparent;
+}
+
+#custom-power_btn {
+  color: #ffffff; /* White power icon (or change back to 'red' if preferred) */
+  padding: 0 15px;
+  padding-right: 20px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: bolder;
+  background: transparent;
+}
+
+#network,
+#network.speed {
+  background-color: transparent;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+#custom-updater {
+  padding: 0 15px;
+  margin-right: 10px;
+  background: transparent;
+}
+
+#backlight {
+  background-color: transparent;
+  padding: 0 5px;
+  color: #ffffff;
+}
+
+#custom-launch_rofi {
+  padding: 0 15px;
+  padding-right: 20px;
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 10px;
+  background: transparent;
+}
+
+#custom-lock_screen {
+  padding-right: 13px;
+  background: transparent;
+}
+
+#temperature {
+  background: transparent;
+}
+
+#tray {
+  margin-left: 10px;
+  background-color: transparent;
+}
+
+#custom-light_dark {
+  margin-left: 10px;
+  padding: 0 15px;
+  background: transparent;
+}
+
+#custom-weather {
+  margin-left: 10px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+#temperature.critical {
+  color: #e92d4d;
+}
+
+#workspaces {
+  padding: 2px 17px;
+  margin-left: 10px;
+  background: transparent;
+}
+
+#window {
+  margin-left: 20px;
+  margin-right: 20px;
+  background: transparent;
+  color: #ffffff;
+}
+
+#pulseaudio {
+  background-color: transparent;
+  color: #ffffff;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+#clock {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 0 20px;
+  font-size: 12px;
+  background: transparent;
+  color: #ffffff;
+}
+
+#pulseaudio.microphone {
+  border-left: 0px;
+  border-right: 0px;
+  background: transparent;
+  color: #ffffff;
+}
+
+#power-profiles-daemon {
+  background-color: transparent;
+  padding-right: 20px;
+  padding-left: 15px;
+  color: #ffffff;
+}
+
+#power-profiles-daemon.performance,
+#power-profiles-daemon.balanced,
+#power-profiles-daemon.power-saver {
+  color: #ffffff; /* Overriding colored profiles to keep them white */
+  font-size: 15px;
+}
+
+#custom-cava {
+  background: transparent;
+  color: #ffffff;
+  opacity: 1;
+  padding: 0px 10px;
+  margin: 3px 0px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 0px;
+}

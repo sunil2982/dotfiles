@@ -1,0 +1,92 @@
+
+{
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', 'JetBrains Mono', monospace",
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "RainbowBrackets.depreciation-notice": false,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "terminal.integrated.fontSize": 14,
+    "files.autoSave": "onFocusChange",
+
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#141218",
+        "activityBar.foreground": "#cebdfe",
+        "sideBar.background": "#141218",
+        "sideBar.foreground": "#cebdfe",
+        "editor.background": "#141218",
+        "editor.foreground": "#cebdfe",
+        "statusBar.background": "#141218",
+        "statusBar.foreground": "#cebdfe",
+        "terminal.background": "#141218",
+        "terminal.foreground": "#cebdfe",
+        
+        // Fix: Add these properties to skin the title bar, menu bar, and dropdown lists
+        "titleBar.activeBackground": "#141218",
+        "titleBar.activeForeground": "#cebdfe",
+        "titleBar.inactiveBackground": "#141218",
+        "titleBar.inactiveForeground": "#cebdfe",
+        "titleBar.border": "#141218",
+        "menubar.selectionBackground": "#141218",
+        "menubar.selectionForeground": "#cebdfe",
+        "menu.background": "#141218",
+        "menu.foreground": "#cebdfe",
+        "menu.selectionBackground": "#141218",
+        "menu.selectionForeground": "#cebdfe",
+        "menu.border": "#141218",
+
+        // Add these keys to style the terminal panel, tabs, and dropdown menus:
+        "panel.background": "#141218",
+        "panel.border": "#141218",
+        "panelSectionHeader.background": "#141218",
+        "panelSectionHeader.foreground": "#cebdfe",
+        "terminal.ansiBrightBlack": "#cebdfe",
+        "terminal.selectionBackground": "#cebdfe",
+        "dropdown.background": "#141218",
+        "dropdown.foreground": "#cebdfe",
+        "dropdown.border": "#141218",
+        "list.activeSelectionBackground": "#cebdfe",
+        "list.activeSelectionForeground": "#141218"
+    }
+}

@@ -1,0 +1,16 @@
+cat << 'EOF' > ~/dotfiles/install.sh
+#!/bin/bash
+set -e
+
+mkdir -p ~/.config
+
+# Symlink configs
+ln -sfn ~/dotfiles/hypr ~/.config/hypr
+ln -sfn ~/dotfiles/waybar ~/.config/waybar
+ln -sfn ~/dotfiles/kitty ~/.config/kitty
+ln -sfn ~/dotfiles/rofi ~/.config/rofi
+ln -sfn ~/dotfiles/matugen ~/.config/matugen
+ln -sfn ~/dotfiles/waypaper ~/.config/waypaper
+
+echo "Configs linked successfully!"
+EOF

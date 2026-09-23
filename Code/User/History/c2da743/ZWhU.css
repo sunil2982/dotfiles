@@ -1,0 +1,53 @@
+@import "colors.css";
+
+window {
+  font-family: "JetBrains Mono Nerd Font";
+  font-size: 12pt;
+  color: var(--on_surface); 
+  background-color: rgba(var(--surface_container_raw), 0.9); 
+}
+
+button {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%; /* Adjust this to 35% or 40% if icons look too small */
+  border-style: solid;
+  border-width: 3px;
+  background-color: rgba(var(--surface_raw), 0.3); 
+  border-color: var(--outline_variant); 
+  margin: 5px;
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+button:focus, button:active, button:hover {
+  background-color: var(--primary_container); 
+  color: var(--on_primary_container); 
+  border-color: var(--primary); 
+  outline-style: none;
+}
+
+/* Fixed image paths below */
+#lock {
+  background-image: url("/home/sunil/.config/wlogout/icons/lock.svg");
+}
+
+#logout {
+  background-image: url("/home/sunil/.config/wlogout/icons/logout.svg");
+}
+
+#suspend {
+  background-image: url("/home/sunil/.config/wlogout/icons/suspend.svg");
+}
+
+#hibernate {
+  background-image: url("/home/sunil/.config/wlogout/icons/hibernate.svg");
+}
+
+#reboot {
+  background-image: url("/home/sunil/.config/wlogout/icons/reboot.svg");
+}
+
+#shutdown {
+  background-image: url("/home/sunil/.config/wlogout/icons/shutdown.svg");
+}

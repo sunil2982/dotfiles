@@ -1,0 +1,39 @@
+{
+  "environment": {
+    "executable": "/home/sunil/myvenv/bin/python",
+    "prefix": "/home/sunil/myvenv",
+    "version": "3.14.7.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/sunil/myvenv/bin/python",
+      "/home/sunil/myvenv/bin/python3",
+      "/home/sunil/myvenv/bin/python3.14"
+    ]
+  },
+  "symlinks": [
+    [
+      "/home/sunil/myvenv/bin/python",
+      {
+        "secs_since_epoch": 1786348016,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/sunil/myvenv/bin/python3",
+      {
+        "secs_since_epoch": 1786348016,
+        "nanos_since_epoch": 0
+      },
+      null
+    ],
+    [
+      "/home/sunil/myvenv/bin/python3.14",
+      {
+        "secs_since_epoch": 1786348016,
+        "nanos_since_epoch": 0
+      },
+      null
+    ]
+  ]
+}

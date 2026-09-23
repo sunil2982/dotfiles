@@ -1,0 +1,65 @@
+
+{
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', 'JetBrains Mono', monospace",
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "RainbowBrackets.depreciation-notice": false,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "terminal.integrated.fontSize": 14,
+    "files.autoSave": "onFocusChange",
+
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#ffeb51",
+        "activityBar.foreground": "#cebdfe",
+        "sideBar.background": "#47f853",
+        "sideBar.foreground": "#cebdfe",
+        "editor.background": "#141218",
+        "editor.foreground": "#cebdfe",
+        "statusBar.background": "#141218",
+        "statusBar.foreground": "#cebdfe",
+        "terminal.background": "#141218",
+        "terminal.foreground": "#cebdfe"
+    }
+}

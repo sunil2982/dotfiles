@@ -1,0 +1,257 @@
+
+
+
+{
+
+
+    // workspaces
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "on-click": "activate",
+        "on-scroll-up": "hyprctl dispatch workspace e-1",
+        "on-scroll-down": "hyprctl dispatch workspace e+1",
+        "format": "{icon}",
+        // "format-icons": {
+            // "1": "",
+            // "2": "",
+            // "3": "",
+            // "4": "",
+        //     "urgent": "",
+        //     "focused": "",
+        //     "default": ""
+        // },
+        "format-icons": {
+            // for arch
+            // "active": "󰮯",
+            // "default": ""
+
+            // for fedora
+            //  "active": "󰣛",  
+            //  "default": ""
+
+            // for opensuse
+            // "active": "",
+            // "default": ""
+          },
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        }
+    },
+
+    //------took it from JaKooLit-------//
+
+    "hyprland/workspaces#preview": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "warp-on-scroll": false,
+        "sort-by-number": true,
+        "show-special": false,
+        "on-click": "activate",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        // "persistent-workspaces": {
+        //     "*": 5
+        //   },
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": []
+        },
+   	
+	// taskbar
+	"wlr/taskbar": {
+		"format": "{icon}",
+		"icon-size": 18,
+		"tooltip-format": "{title}",
+		"on-click": "activate",
+		"on-click-middle": "close"
+	},
+	
+	// clock
+	"clock": {  
+		"interval": 1,
+		"format": "{:%H:%M}",
+		//"format": "{:%I:%M %p}", // AM PM format
+		"format-alt": "{:%A, %B %d - %H:%M}",
+		"tooltip-format": "<big>{calendar}</big>",
+		"calendar": {
+			"mode": "month",
+			"mode-mon-col": 3,
+			"weeks-pos": "right",
+			"on-scroll": 1,
+			"format": {
+				"months": "<span color='#ffffff'><b>{}</b></span>",
+				"days": "<span color='#ffffff'><b>{}</b></span>",
+				"weeks": "<span color='#ffffff'><b>W{}</b></span>",
+				"weekdays": "<span color='#ffffff'><b>{}</b></span>",
+				"today": "<span color='#ffffff'><b><u>{}</u></b></span>"
+			}
+		}
+	},
+	
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": " ",
+        "performance": " ",
+        "balanced": " ",
+        "power-saver": " "
+      }
+    },
+
+
+	// hardware
+	"group/hardware": {
+		"orientation": "inherit",
+		"drawer": {
+			"transition-duration": 300,
+			"children-class": "not-memory",
+			"transition-left-to-right": false
+		},        
+		"modules": [
+			"custom/system",
+			"cpu",
+			"temperature",
+			"disk",
+			"memory"
+		]
+	},
+	
+	// system
+	"custom/system": {
+		"format": "<span size='small'>  </span>",
+		"tooltip": false
+	},
+	
+	// CPU
+	"cpu": {
+		"format": " 󰍛 {usage}% ",
+		"on-click": "kitty btop"
+	},
+	
+	// temperature
+	"temperature": {
+		"format": " 󰈸 {temperatureC}°C ",
+		"on-click": "kitty btop"
+	},
+	
+	// harddisc space
+	"disk": {
+		"interval": 30,
+		"format": " 󰋊 {percentage_used}% ",
+		"path": "/",
+		"on-click": "kitty btop"
+	}, 
+	
+	// memory
+	"memory": {
+		"format": "  {}% ",
+		"on-click": "kitty btop"
+	},
+	
+	// audio
+	"pulseaudio": {
+		"scroll-step": 1,
+		"format": "{icon} {volume}%",
+		"format-bluetooth": "{volume}% {icon} {format_source}",
+		"format-bluetooth-muted": "󰖁 {icon} {format_source}",
+		"format-muted": "󰖁 {format_source}",
+		"format-source": "{volume}% ",
+		"format-source-muted": "",
+		"format-icons": {
+			"headphone": "",
+			"phone": "",
+			"car": "",
+			"default": ["", "", ""]
+		},
+		"on-click": "pavucontrol"
+	},
+	
+	// bluetooth
+	"bluetooth": {
+		"format": " {status}",
+		"format-disabled": " {status}",
+		"format-off": " {status}",
+		"interval": 30,
+		"on-click": "blueman-manager",
+		"format-no-controller": ""
+	},
+	
+"backlight": {
+        "interval": 2,
+        "align": 0,
+        "rotate": 0,
+        "format": "{icon} {percent}%",
+        "format-icons": [
+            " ",
+            " ",
+            " ",
+            "󰃝 ",
+            "󰃞 ",
+            "󰃟 ",
+            "󰃠 "
+        ],
+        "tooltip-format": "backlight {percent}%",
+        "icon-size": 10,
+        "on-click": "",
+        "on-click-middle": "",
+        "on-click-right": "",
+        "on-update": "",
+        "on-scroll-up": "~/.config/hypr/scripts/brightness.sh up",
+        "on-scroll-down": "~/.config/hypr/scripts/brightness.sh down",
+        "smooth-scrolling-threshold": 1
+    },
+
+
+	// network
+	"network": {
+		"format": "{ifname}",
+		"format-wifi": " {signalStrength}%",
+		"format-ethernet": "󰌘 {ifname}",
+		"format-disconnected": "disconnected",
+		"tooltip-format": "󰌘 {ifname} via {gwaddri}",
+		"tooltip-format-wifi": " {ifname} @ {essid}\nIP: {ipaddr}\nStrength: {signalStrength}%\nFreq: {frequency}MHz\n {bandwidthUpBits}  {bandwidthDownBits}",
+		"tooltip-format-ethernet": "󰌘 {ifname}\nIP: {ipaddr}\n  {bandwidthUpBits}  {bandwidthDownBits}",
+		"tooltip-format-disconnected": "disconnected",
+		"max-length": 50,
+		"on-click": "kitty -e nmtui"
+		//"on-click": "~/dotfiles/.settings/networkmanager.sh"
+	},
+	
+	"tray": {
+        "icon-size": 18,
+        "spacing": 10
+    },
+
+	
+	// battery
+	"battery": {
+		"states": {
+			"good": 95,
+			"warning": 30,
+			"critical": 10
+		},
+		"format": "{icon} {capacity}%",
+		"format-charging": " {capacity}%",
+		"format-plugged": " {capacity}%",
+		"format-icons": ["", "", "", "", ""]
+	},
+	
+	// power menu
+	"custom/exit": {
+		"format": "",
+		"on-click": "wlogout -b 2",
+		"tooltip": false		
+	},
+}
+
+

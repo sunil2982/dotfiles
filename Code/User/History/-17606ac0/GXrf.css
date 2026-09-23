@@ -1,0 +1,164 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font", "MesloLGS Nerd Font", "Font Awesome";
+  font-weight: bold;
+  font-size: 12px;
+  min-height: 0;
+  color: #ffffff;
+}
+
+/* Completely ignore/override external theme background conflicts */
+/*@import "style/theme.css";*/
+
+window#waybar {
+  background: transparent !important;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+/* Tooltips and Calendars */
+tooltip {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 6px;
+}
+
+tooltip label {
+  font-size: 14px;
+  color: #ffffff !important;
+}
+
+/* Workspaces */
+#workspaces {
+  background: transparent !important;
+  padding: 2px 10px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+#workspaces button {
+  padding: 2px 8px;
+  color: #ffffff;
+  margin-right: 5px;
+  background: transparent !important;
+}
+
+#workspaces button.active {
+  color: #000000 !important;
+  background: #ffffff !important;
+  padding: 0 12px;
+  margin: 3px 0;
+  border-radius: 15px;
+}
+
+#workspaces button.focused,
+#workspaces button.urgent,
+#workspaces button:hover {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: none;
+}
+
+/* Taskbar */
+#taskbar {
+  background: transparent !important;
+  border-radius: 15px;
+}
+
+#taskbar button {
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0px 3px;
+  border-radius: 9px;
+  margin: 3px 0px;
+  color: #ffffff;
+  background: transparent !important;
+}
+
+#taskbar button.active {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: #ffffff !important;
+  margin: 3px;
+  padding: 0 12px;
+}
+
+#taskbar button:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+}
+
+/* Universal Module Stripping (Removes all black/dark background boxes) */
+#custom-launch_rofi,
+#custom-lock_screen,
+#custom-light_dark,
+#custom-power_btn,
+#custom-weather,
+#custom-updater,
+#custom-system,
+#window,
+#cpu,
+#disk,
+#idle_inhibitor,
+#custom-updates,
+#custom-clipboard,
+#memory,
+#clock,
+#pulseaudio,
+#network,
+#tray,
+#temperature,
+#custom-notify,
+#battery,
+#mpris,
+#custom-nightlight,
+#hyprland-keyboard,
+#power-profiles-daemon,
+#backlight,
+#custom-theme,
+#custom-wallpaper,
+#custom-cava {
+  background: transparent !important;
+  background-color: transparent !important;
+  opacity: 0.8;
+  padding: 0px 10px;
+  margin: 3px 0px;
+  color: #ffffff !important;
+}
+
+/* Individual Spacing & Adjustments */
+#custom-launch_rofi {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+#window {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#clock {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+#battery.critical:not(.charging) {
+  color: #f53c3c !important;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: #333333;
+  }
+}
+
+#temperature.critical {
+  color: #e92d4d !important;
+}

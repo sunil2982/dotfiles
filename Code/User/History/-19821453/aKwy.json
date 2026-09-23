@@ -1,0 +1,92 @@
+
+{
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Fira Code', 'JetBrains Mono', monospace",
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "One Dark italic",
+                "scope": [
+                    "comment",
+                    "entity.other.attribute-name",
+                    "keyword",
+                    "markup.underline.link",
+                    "storage.modifier",
+                    "storage.type",
+                    "string.url",
+                    "variable.language.super",
+                    "variable.language.this"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "One Dark italic reset",
+                "scope": [
+                    "keyword.operator",
+                    "keyword.other.type",
+                    "storage.modifier.import",
+                    "storage.modifier.package",
+                    "storage.type.built-in",
+                    "storage.type.function.arrow",
+                    "storage.type.generic",
+                    "storage.type.java",
+                    "storage.type.primitive"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "RainbowBrackets.depreciation-notice": false,
+    "terminal.integrated.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    "terminal.integrated.fontSize": 14,
+    "files.autoSave": "onFocusChange",
+
+    "workbench.colorTheme": "Sweet Dracula",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "{{colors.surface.dark.hex}}",
+        "activityBar.foreground": "{{colors.primary.dark.hex}}",
+        "sideBar.background": "{{colors.surface.dark.hex}}",
+        "sideBar.foreground": "{{colors.primary.dark.hex}}",
+        "editor.background": "{{colors.surface.dark.hex}}",
+        "editor.foreground": "{{colors.primary.dark.hex}}",
+        "statusBar.background": "{{colors.surface.dark.hex}}",
+        "statusBar.foreground": "{{colors.primary.dark.hex}}",
+        "terminal.background": "{{colors.surface.dark.hex}}",
+        "terminal.foreground": "{{colors.primary.dark.hex}}",
+        
+        // Fix: Add these properties to skin the title bar, menu bar, and dropdown lists
+        "titleBar.activeBackground": "{{colors.surface.dark.hex}}",
+        "titleBar.activeForeground": "{{colors.primary.dark.hex}}",
+        "titleBar.inactiveBackground": "{{colors.surface.dark.hex}}",
+        "titleBar.inactiveForeground": "{{colors.primary.dark.hex}}",
+        "titleBar.border": "{{colors.surface.dark.hex}}",
+        "menubar.selectionBackground": "{{colors.surface.dark.hex}}",
+        "menubar.selectionForeground": "{{colors.primary.dark.hex}}",
+        "menu.background": "{{colors.surface.dark.hex}}",
+        "menu.foreground": "{{colors.primary.dark.hex}}",
+        "menu.selectionBackground": "{{colors.surface.dark.hex}}",
+        "menu.selectionForeground": "{{colors.primary.dark.hex}}",
+        "menu.border": "{{colors.surface.dark.hex}}",
+
+        // Add these keys to style the terminal panel, tabs, and dropdown menus:
+        "panel.background": "{{colors.surface.dark.hex}}",
+        "panel.border": "{{colors.surface.dark.hex}}",
+        "panelSectionHeader.background": "{{colors.surface.dark.hex}}",
+        "panelSectionHeader.foreground": "{{colors.primary.dark.hex}}",
+        "terminal.ansiBrightBlack": "{{colors.primary.dark.hex}}",
+        "terminal.selectionBackground": "{{colors.primary.dark.hex}}",
+        "dropdown.background": "{{colors.surface.dark.hex}}",
+        "dropdown.foreground": "{{colors.primary.dark.hex}}",
+        "dropdown.border": "{{colors.surface.dark.hex}}",
+        "list.activeSelectionBackground": "{{colors.primary.dark.hex}}",
+        "list.activeSelectionForeground": "{{colors.surface.dark.hex}}"
+    }
+}

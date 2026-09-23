@@ -1,0 +1,2 @@
+side = input()
+side.split()

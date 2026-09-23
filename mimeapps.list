@@ -1,0 +1,12 @@
+[Default Applications]
+image/png=org.gnome.Loupe.desktop
+image/jpeg=org.gnome.Loupe.desktop
+text/plain=code.desktop
+application/x-zerosize=code.desktop
+
+[Added Associations]
+image/png=swayimg.desktop;org.gnome.Loupe.desktop;
+image/jpeg=org.gnome.Loupe.desktop;
+text/plain=code.desktop;
+inode/directory=thunar.desktop;
+application/x-zerosize=code.desktop;

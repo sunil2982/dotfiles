@@ -1,0 +1,55 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "ui_font_weight": 550.0,
+  "agent_ui_font_size": 15.0,
+  "buffer_font_weight": 550.0,
+  "terminal": {
+    "font_size": 13.0
+  },
+  "markdown_preview_font_size": 16.0,
+  "agent_buffer_font_size": 16.0,
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "minimap": {
+    "show": "always"
+  },
+  "buffer_font_family": "JetBrainsMono Nerd Font,FontAwesome,Droid Sans Mono, Courier New,Fira Code, JetBrains Mono, monospace,",
+  "base_keymap": "VSCode",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "ui_font_size": 14.0,
+  "buffer_font_size": 14.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Colorizer Pro",
+  },
+  "languages": {
+      "Python": {
+        "language_servers": [
+          "basedpyright"
+        ]
+      }
+    },
+    "lsp": {
+      "basedpyright": {
+        "settings": {
+          "basedpyright.analysis": {
+            "typeCheckingMode": "off"
+          }
+        }
+      }
+    }
+
+}

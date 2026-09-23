@@ -1,0 +1,197 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "ec5d6c06b1f1424faf4914f41f788debd4f472f757cd3a52af10b60894b4ceb4",
+    "telemetry.devDeviceId": "18de6354-bf04-4a2b-a5b3-4836fa042950",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1790084896266"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/sunil/.config/waybar": "__default__profile__",
+            "file:///home/sunil/.config/rofi": "__default__profile__",
+            "file:///home/sunil/Downloads/hyprconf-main/config/waybar": "__default__profile__",
+            "file:///home/sunil/.config/matugen": "__default__profile__",
+            "file:///home/sunil/.config/hypr": "__default__profile__",
+            "file:///home/sunil/.config/swaync": "__default__profile__",
+            "file:///home/sunil/myvenv": "__default__profile__",
+            "file:///home/sunil/Documents/Envs/test/python": "__default__profile__",
+            "file:///home/sunil/Documents/Envs/cody": "__default__profile__",
+            "file:///home/sunil/.config/matugen/templates": "__default__profile__",
+            "file:///home/sunil/Documents/Envs/cody/elearn": "__default__profile__",
+            "file:///home/sunil/Documents/Envs/cody/gamechar": "__default__profile__",
+            "file:///home/sunil/Documents/Envs/cody/vehical": "__default__profile__",
+            "file:///home/sunil/.config/gtk-3.0": "__default__profile__",
+            "file:///home/sunil/.themes/qmd": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1790084896266": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#141218",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#f8f8f2",
+            "background": "#141218",
+            "editorBackground": "#141218",
+            "titleBarBackground": "#141218",
+            "titleBarInactiveBackground": "#141218",
+            "titleBarBorder": "#141218",
+            "activityBarBackground": "#141218",
+            "activityBarBorder": "#232634",
+            "modernActivityBarBackground": "#141218",
+            "modernActivityBarInactiveBackground": "#141218",
+            "modernActivityBarBorder": "#363438",
+            "modernPanelBorder": "#363438",
+            "modernUIShellBackground": "#141218",
+            "modernUIInactiveShellBackground": "#141218",
+            "sideBarBackground": "#141218",
+            "sideBarBorder": "#11131c",
+            "panelBackground": "#141218",
+            "editorGroupBorder": "#bd93f9",
+            "editorBorder": "#363438",
+            "surfaceBackground": "#141218",
+            "surfaceBorder": "#363438",
+            "agentsPanelBackground": "#141218",
+            "agentsPanelBorder": "rgba(248, 248, 242, 0.15)",
+            "statusBarBackground": "#141218",
+            "statusBarNoFolderBackground": "#11131c"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 28,
+            "windowBorder": false,
+            "modernUI": true,
+            "modernUICompact": false,
+            "partBounds": {
+                "activityBar": {
+                    "top": 61,
+                    "left": 4,
+                    "width": 44,
+                    "height": 931,
+                    "outerEdges": {
+                        "left": true,
+                        "right": false,
+                        "top": true,
+                        "bottom": true
+                    }
+                },
+                "editor": {
+                    "top": 61,
+                    "left": 52,
+                    "width": 886,
+                    "height": 930.96923828125,
+                    "outerEdges": {
+                        "left": false,
+                        "right": true,
+                        "top": true,
+                        "bottom": true
+                    }
+                }
+            }
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 179,
+            "auxiliaryBarWidth": 235,
+            "workspaces": {
+                "0d960bd3df455ede279431c782828f49": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b3ed1017f5878e9c99cf38dfb6b5d1bd": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "14fbc8aa193520dbcf55fe7939480882": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f57125af95e276c75b12e146228966e7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "eef0a0674798531141d64db5c917cbc7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "03c3ca1d49688a5bdb853dd7e9327e1b": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "f5ed346ac68f5245ec6cf6a3f0dc9bf2": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "088d0553e6f88c549225a95117031382": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "20ec25696400ad0024f278fe0d03cf87": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5bcf32518f18ccc6c190669cd2b36015": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "45b00c7a0be7dea3e3920597f45caf4b": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "d3ad916fdb7d76dc2ff7fd776f97efdb": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "f08130180a89863852b90f528fae0337": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "59210230486aaded29c22704320ca55a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "e353acd88b657b07728432d4639b4679": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7cae057c4e84ce76332179ec90e72c3a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "fa4685913cf8ad0ea43ccd6270d2ec5e": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/sunil/.config/Code/Backups/1790084896266",
+            "uiState": {
+                "mode": 0,
+                "x": 16,
+                "y": 10,
+                "width": 944,
+                "height": 1025
+            }
+        },
+        "openedWindows": []
+    }
+}
