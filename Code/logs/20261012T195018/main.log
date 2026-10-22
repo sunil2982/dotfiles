@@ -1,0 +1,50 @@
+2026-10-12 19:50:18.935 [info] [node-compile-cache] main: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/main, active: none)
+2026-10-12 19:50:18.938 [info] StorageMainService: creating application shared storage
+2026-10-12 19:50:19.004 [info] [shared storage] Creating shared storage database at '/home/sunil/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-10-12 19:50:19.005 [info] [shared storage] Initializing fallback application storage (path: /home/sunil/.config/Code/User/globalStorage/state.vscdb)
+2026-10-12 19:50:19.028 [info] [shared storage] Fallback application storage initialized with 107 items
+2026-10-12 19:50:19.573 [info] update#setState idle
+2026-10-12 19:50:19.628 [info] AgentHostProcessManager: agent host started
+2026-10-12 19:50:20.188 [error] [AgentHost:stderr] (node:79170) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-10-12 19:50:49.574 [info] update#setState checking for updates
+2026-10-12 19:50:49.644 [info] update#setState idle
+2026-10-12 20:40:46.723 [info] update#setState checking for updates
+2026-10-12 20:40:47.997 [info] update#setState idle
+2026-10-12 20:42:22.399 [info] update#setState checking for updates
+2026-10-12 20:42:23.654 [info] update#setState idle
+2026-10-12 20:43:29.037 [info] update#setState checking for updates
+2026-10-12 20:43:30.200 [info] update#setState idle
+2026-10-12 20:47:05.289 [info] update#setState checking for updates
+2026-10-12 20:47:05.453 [info] update#setState idle
+2026-10-12 21:47:05.297 [info] update#setState checking for updates
+2026-10-12 21:47:05.505 [info] update#setState idle
+2026-10-12 22:47:05.306 [info] update#setState checking for updates
+2026-10-12 22:47:05.524 [info] update#setState idle
+2026-10-12 23:47:05.316 [info] update#setState checking for updates
+2026-10-12 23:47:05.489 [info] update#setState idle
+2026-10-13 00:47:05.321 [info] update#setState checking for updates
+2026-10-13 00:47:05.445 [info] update#setState idle
+2026-10-13 01:47:05.325 [info] update#setState checking for updates
+2026-10-13 01:47:05.534 [info] update#setState idle
+2026-10-13 02:47:05.331 [info] update#setState checking for updates
+2026-10-13 02:47:05.570 [info] update#setState idle
+2026-10-13 03:47:05.339 [info] update#setState checking for updates
+2026-10-13 03:47:05.473 [info] update#setState idle
+2026-10-13 04:47:05.344 [info] update#setState checking for updates
+2026-10-13 04:47:05.486 [info] update#setState idle
+2026-10-13 05:47:05.347 [info] update#setState checking for updates
+2026-10-13 05:47:05.439 [info] update#setState idle
+2026-10-13 06:47:05.351 [info] update#setState checking for updates
+2026-10-13 06:47:05.477 [info] update#setState idle
+2026-10-13 07:47:05.358 [info] update#setState checking for updates
+2026-10-13 07:47:05.470 [info] update#setState idle
+2026-10-13 08:47:05.364 [info] update#setState checking for updates
+2026-10-13 08:47:05.555 [info] update#setState idle
+2026-10-13 09:47:05.368 [info] update#setState checking for updates
+2026-10-13 09:47:05.489 [info] update#setState idle
+2026-10-13 10:47:05.372 [info] update#setState checking for updates
+2026-10-13 10:47:05.553 [info] update#setState idle
+2026-10-13 11:47:05.380 [info] update#setState checking for updates
+2026-10-13 11:47:05.562 [info] update#setState idle

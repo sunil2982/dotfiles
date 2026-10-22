@@ -1,0 +1,174 @@
+2026-10-14 23:47:20.362 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-14 23:47:20.393 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-14 23:47:20.668 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-14 23:47:20.863 [info] Started local extension host with pid 15490.
+2026-10-14 23:47:20.907 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): agentSessionsWorkspace
+agentsWindowConfiguration
+chatDebug
+chatHooks
+envIsConnectionMetered
+extensionsAny
+newSymbolNamesProvider
+interactive
+codeActionAI
+activeComment
+commentReveal
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+documentFiltersExclusive
+embeddings
+findTextInFiles
+findTextInFiles2
+languageModelToolSupportsModel
+findFiles2
+textSearchProvider
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+chatParticipantAdditions
+defaultChatParticipant
+contribSourceControlInputBoxMenu
+authLearnMore
+authIssuers
+testObserver
+aiTextSearchProvider
+chatParticipantPrivate
+chatProvider
+contribDebugCreateConfiguration
+chatReferenceDiagnostic
+textSearchProvider2
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelPricing
+inlineCompletionsAdditions
+chatStatusItem
+chatInputNotification
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+languageModelThinkingPart
+chatSessionsProvider
+devDeviceId
+contribEditorContentMenu
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+environmentPower
+terminalTitle
+toolInvocationApproveCombination
+chatSessionCustomizationProvider
+product.json (WINS): agentSessionsWorkspace
+agentsWindowConfiguration
+interactive
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+chatParticipantAdditions
+defaultChatParticipant
+embeddings
+chatProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+codeActionAI
+findTextInFiles
+findTextInFiles2
+textSearchProvider
+textSearchProvider2
+activeComment
+commentReveal
+contribSourceControlInputBoxMenu
+contribCommentEditorActionsMenu
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+extensionAffinity
+newSymbolNamesProvider
+findFiles2
+chatReferenceDiagnostic
+extensionsAny
+authLearnMore
+testObserver
+aiTextSearchProvider
+documentFiltersExclusive
+chatParticipantPrivate
+contribDebugCreateConfiguration
+inlineCompletionsAdditions
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelThinkingPart
+languageModelToolSupportsModel
+chatStatusItem
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+chatSessionsProvider
+chatSessionCustomizationProvider
+devDeviceId
+contribEditorContentMenu
+tokenInformation
+toolInvocationApproveCombination
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+chatHooks
+chatDebug
+envIsConnectionMetered
+environmentPower
+terminalTitle
+languageModelPricing
+chatInputNotification
+DELTA: authIssuers
+2026-10-14 23:47:21.204 [info] [RemoteAgentHostProtocol] Sending initialize: address=local clientId=dd798b12-0e28-4827-9374-d96b297bdbc0 requestId=1
+2026-10-14 23:47:21.368 [info] [RemoteAgentHostProtocol] Initialized: address=local clientId=dd798b12-0e28-4827-9374-d96b297bdbc0 durationMs=973
+2026-10-14 23:47:21.375 [info] [AgentHost:renderer] Protocol connection established; clientId=dd798b12-0e28-4827-9374-d96b297bdbc0
+2026-10-14 23:47:22.106 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: blade
+2026-10-14 23:47:22.107 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: ejs
+2026-10-14 23:47:22.107 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: latte
+2026-10-14 23:47:22.107 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: tpl
+2026-10-14 23:47:22.108 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: twig
+2026-10-14 23:47:22.109 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: vue
+2026-10-14 23:47:22.109 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: vue-html
+2026-10-14 23:47:22.109 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: erb
+2026-10-14 23:47:22.109 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: HTML (Eex)
+2026-10-14 23:47:22.110 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: volt
+2026-10-14 23:47:22.110 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: nunjucks
+2026-10-14 23:47:22.110 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: sass
+2026-10-14 23:47:22.110 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: svelte
+2026-10-14 23:47:22.110 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: njk
+2026-10-14 23:47:22.356 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-14 23:47:22.582 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-14 23:47:22.635 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-14 23:47:22.638 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-14 23:47:22.649 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-14 23:47:22.651 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-14 23:47:22.659 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-14 23:47:22.684 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-14 23:47:22.780 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-14 23:47:22.897 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-14 23:47:22.941 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-14 23:47:22.951 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-14 23:47:22.958 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-14 23:47:23.020 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-14 23:47:23.066 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-14 23:47:23.592 [info] [perf] Render performance baseline is 32ms
+2026-10-14 23:47:24.450 [error] [Extension Host] (node:15490) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-14 23:47:27.356 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

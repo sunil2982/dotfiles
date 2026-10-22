@@ -1,0 +1,51 @@
+2026-10-14 23:37:44.162 [info] Extension host with pid 7315 started
+2026-10-14 23:37:44.489 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-10-14 23:37:44.530 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-10-14 23:37:44.555 [info] ExtensionService#_doActivateExtension tamasfe.even-better-toml, startup: false, activationEvent: 'onLanguage:toml'
+2026-10-14 23:37:45.273 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-10-14 23:37:45.277 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2026-10-14 23:37:45.297 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2026-10-14 23:37:45.299 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2026-10-14 23:37:45.378 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-10-14 23:37:45.438 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-10-14 23:37:45.559 [info] Eager extensions activated
+2026-10-14 23:37:45.560 [info] [node-compile-cache] extension-host: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/extension-host, active: none)
+2026-10-14 23:37:45.581 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 23:37:45.585 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 23:37:45.609 [info] ExtensionService#_doActivateExtension mskelton.one-dark-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 23:37:45.611 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-10-14 23:37:45.685 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-10-14 23:37:55.166 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:38:01.777 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:39:00.061 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:39:11.712 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3509
+2026-10-14 23:39:23.049 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:39:34.365 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:39:45.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:39:56.855 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:40:08.709 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:40:20.227 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:40:32.625 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:40:44.028 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:41:39.283 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3511
+2026-10-14 23:41:54.359 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:django-txt'
+2026-10-14 23:42:01.634 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3509
+2026-10-14 23:42:12.989 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3509
+2026-10-14 23:42:24.352 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:42:36.255 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3510
+2026-10-14 23:42:47.612 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3511
+2026-10-14 23:43:02.158 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3511
+2026-10-14 23:43:13.801 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3512
+2026-10-14 23:43:25.316 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3512
+2026-10-14 23:44:04.002 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3513
+2026-10-14 23:44:15.319 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3512
+2026-10-14 23:44:26.563 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3512
+2026-10-14 23:44:52.581 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3512
+2026-10-14 23:45:04.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3513
+2026-10-14 23:45:15.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3515
+2026-10-14 23:45:26.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3514
+2026-10-14 23:45:48.035 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3515
+2026-10-14 23:45:59.680 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3521
+2026-10-14 23:46:11.246 [warning] [Decorations] CAPPING events from decorations provider vscode.git 3522
+2026-10-14 23:46:12.413 [info] Extension host terminating: received terminate message from renderer
+2026-10-14 23:46:12.468 [info] Extension host with pid 7315 exiting with code 0

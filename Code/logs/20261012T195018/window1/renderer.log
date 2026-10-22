@@ -1,0 +1,181 @@
+2026-10-12 19:50:19.587 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-12 19:50:19.621 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-12 19:50:19.884 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-12 19:50:20.093 [info] Started local extension host with pid 79190.
+2026-10-12 19:50:20.228 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): agentSessionsWorkspace
+agentsWindowConfiguration
+chatDebug
+chatHooks
+envIsConnectionMetered
+extensionsAny
+newSymbolNamesProvider
+interactive
+codeActionAI
+activeComment
+commentReveal
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+documentFiltersExclusive
+embeddings
+findTextInFiles
+findTextInFiles2
+languageModelToolSupportsModel
+findFiles2
+textSearchProvider
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+chatParticipantAdditions
+defaultChatParticipant
+contribSourceControlInputBoxMenu
+authLearnMore
+authIssuers
+testObserver
+aiTextSearchProvider
+chatParticipantPrivate
+chatProvider
+contribDebugCreateConfiguration
+chatReferenceDiagnostic
+textSearchProvider2
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelPricing
+inlineCompletionsAdditions
+chatStatusItem
+chatInputNotification
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+languageModelThinkingPart
+chatSessionsProvider
+devDeviceId
+contribEditorContentMenu
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+environmentPower
+terminalTitle
+toolInvocationApproveCombination
+chatSessionCustomizationProvider
+product.json (WINS): agentSessionsWorkspace
+agentsWindowConfiguration
+interactive
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+chatParticipantAdditions
+defaultChatParticipant
+embeddings
+chatProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+codeActionAI
+findTextInFiles
+findTextInFiles2
+textSearchProvider
+textSearchProvider2
+activeComment
+commentReveal
+contribSourceControlInputBoxMenu
+contribCommentEditorActionsMenu
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+extensionAffinity
+newSymbolNamesProvider
+findFiles2
+chatReferenceDiagnostic
+extensionsAny
+authLearnMore
+testObserver
+aiTextSearchProvider
+documentFiltersExclusive
+chatParticipantPrivate
+contribDebugCreateConfiguration
+inlineCompletionsAdditions
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelThinkingPart
+languageModelToolSupportsModel
+chatStatusItem
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+chatSessionsProvider
+chatSessionCustomizationProvider
+devDeviceId
+contribEditorContentMenu
+tokenInformation
+toolInvocationApproveCombination
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+chatHooks
+chatDebug
+envIsConnectionMetered
+environmentPower
+terminalTitle
+languageModelPricing
+chatInputNotification
+DELTA: authIssuers
+2026-10-12 19:50:20.478 [info] [RemoteAgentHostProtocol] Sending initialize: address=local clientId=6cbbe256-f69d-42b5-9dc4-518dc2e94cc0 requestId=1
+2026-10-12 19:50:20.642 [info] [RemoteAgentHostProtocol] Initialized: address=local clientId=6cbbe256-f69d-42b5-9dc4-518dc2e94cc0 durationMs=1019
+2026-10-12 19:50:20.646 [info] [AgentHost:renderer] Protocol connection established; clientId=6cbbe256-f69d-42b5-9dc4-518dc2e94cc0
+2026-10-12 19:50:20.706 [info] [RemoteAgentHostProtocol] Mirroring configuration to host root config from DEFAULT: artifactTools=true (chat.artifactTools.enabled), autoAttachPullRequests=false (chat.agentHost.experimental.autoAttachPullRequests), copilotMultiRootEnabled=true (chat.agentHost.copilotAgent.multiRootEnabled), claudeMultiRootEnabled=true (chat.agentHost.claudeAgent.multiRootEnabled), codexMultiRootEnabled=true (chat.agentHost.codexAgent.multiRootEnabled), byokModelsEnabled=true (chat.agentHost.byokModels.enabled), codexAgentEnabled=true (chat.agentHost.codexAgent.enabled), skillCharBudget=30000 (chat.copilot.skillCharBudget)
+2026-10-12 19:50:21.848 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-12 19:50:22.070 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-12 19:50:22.100 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-12 19:50:22.109 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-12 19:50:22.115 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-12 19:50:22.135 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-12 19:50:22.146 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-12 19:50:22.180 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-12 19:50:22.348 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-12 19:50:22.587 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-12 19:50:22.590 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-12 19:50:22.592 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-12 19:50:22.595 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-12 19:50:22.598 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-12 19:50:22.599 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-12 19:50:23.909 [info] [perf] Render performance baseline is 45ms
+2026-10-12 19:50:26.849 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-12 20:12:26.732 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: blade
+2026-10-12 20:12:26.733 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: ejs
+2026-10-12 20:12:26.733 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: latte
+2026-10-12 20:12:26.733 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: tpl
+2026-10-12 20:12:26.733 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: twig
+2026-10-12 20:12:26.733 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: vue
+2026-10-12 20:12:26.734 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: vue-html
+2026-10-12 20:12:26.734 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: erb
+2026-10-12 20:12:26.734 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: HTML (Eex)
+2026-10-12 20:12:26.734 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: volt
+2026-10-12 20:12:26.734 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: nunjucks
+2026-10-12 20:12:26.734 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: sass
+2026-10-12 20:12:26.734 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: svelte
+2026-10-12 20:12:26.735 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: njk
+2026-10-12 20:12:28.938 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-12 20:12:28.953 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-12 20:12:28.961 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-12 20:12:28.965 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-12 20:12:28.974 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-12 20:12:28.976 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-12 20:12:30.985 [error] [Extension Host] (node:79190) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

@@ -76,8 +76,10 @@ output_path = '/home/sunil/.config/matugen/generated/firefox_websites.css'
 
 [templates.gtk3]
 input_path = '/home/sunil/.config/matugen/templates/gtk-colors.css'
-output_path = '/home/sunil/.config/gtk-3.0/colors.css' #post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme "" && gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3-dark"'
-post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme "" && gsettings set org.gnome.desktop.interface gtk-theme "qmd" && nemo -q'
+output_path = '/home/sunil/.config/gtk-3.0/colors.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme "" && gsettings set org.gnome.desktop.interface gtk-theme "Matcha-dark-sea" && nemo -q'
+#post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme "" && gsettings set org.gnome.desktop.interface gtk-theme "adw-gtk3-dark"'
+
 
 
 # not this working

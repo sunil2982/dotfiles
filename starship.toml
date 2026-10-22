@@ -122,7 +122,7 @@ format = '[ $symbol ]($style)'
 
 [python]
 symbol = ' '
-style = "fg:color10"
+style = "fg:color11"
 # This ensures it outputs nothing if virtualenv is empty
 format = '[($symbol($virtualenv) )]($style)'
 detect_extensions = []
@@ -166,16 +166,17 @@ Windows = "  "
 # Matugen color mappings appended at the bottom
 [palettes.colors]
 # color1 = "#cebdfe"
-color1 = "#5494f4"
+color1 = "#3384ff"
 color2  = "#cbc3dc"
 color3  = "#211f24"
 color4 = "#2b292f"
 color5 = "#1d1b20"
 color6    = "#141218"
-color7   = "#db0ab8"
+color7   = "#ff9234"
 #color7   = "#e6e1e9"
-color8 = "#0ce8a6"
+color8 = "#11c690"
 #color8  = "#cbc3dc"
 #color9   = "#ffb4ab"
-color9   = "#4fff5b"
+color9   = "#38ea21"
 color10 = "#db1010"
+color11 = "#a54bff"

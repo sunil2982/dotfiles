@@ -137,7 +137,7 @@ hl.config({
 
         -- Change transparency of focused and unfocused windows
         active_opacity   = 0.95,
-        inactive_opacity = 0.85,
+        inactive_opacity = 0.80,
         fullscreen_opacity =1.0,
 
         shadow = {
@@ -329,6 +329,17 @@ hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),       { locked = tr
 hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
+-- Hyprshot Screenshots
+-- Take a screenshot of a selected region (Presses PrintScreen alone)
+hl.bind("Print", hl.dsp.exec_cmd("hyprshot -m region"))
+
+-- Take a screenshot of the active window (mainMod + Shift + PrintScreen)
+hl.bind(mainMod .. " + SHIFT + Print", hl.dsp.exec_cmd("hyprshot -m window"))
+
+-- Take a screenshot of the entire monitor (mainMod + PrintScreen)
+hl.bind(mainMod .. " + Print", hl.dsp.exec_cmd("hyprshot -m output"))
+
+
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
@@ -413,6 +424,14 @@ hl.window_rule({
 
 hl.window_rule({
    
+    match = { class = "org.gnome.Calculator" },
+    float = true,
+    center = true,
+    size = { 500, 400 }
+})
+
+hl.window_rule({
+   
     match = { class = "engrampa" },
     float = true,
     center = true,
@@ -445,3 +464,14 @@ hl.layerrule = {
     "ignorezero, swaync",
     "ignorealpha 0.5, swaync" -- Keeps the blur crisp even if the window is quite transparent
 }
+
+-- If your config uses a standard string execution for rules:
+-- hyprland.execute("windowrulev2 = opacity 0.9 override 0.9 override, class:^(waypaper)$")
+
+-- OR if it uses a structured Lua table format (adjust to match your file's style):
+hl.window_rule = ({
+    match = {class= "waypaper"},
+    center= true,
+    opacity =  0.9,
+    
+})

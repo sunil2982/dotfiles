@@ -1,0 +1,14 @@
+2026-10-17 04:20:54.566 [info] Getting Manifest... ms-python.python
+2026-10-17 04:20:54.567 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-10-17 04:20:54.660 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.142.0","date":"2026-10-15T03:02:17Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sunil/.vscode/extensions/extensions.json","path":"/home/sunil/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-10-17 04:20:54.663 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.142.0","date":"2026-10-15T03:02:17Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sunil/.vscode/extensions/extensions.json","path":"/home/sunil/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-10-17 04:20:59.249 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 1094ms.
+2026-10-17 04:20:59.303 [info] Extension signature verification result for ms-python.python: Success. Internal Code: 0. Executed: true. Duration: 805ms.
+2026-10-17 04:20:59.586 [info] Extracted extension to file:///home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.40.0-linux-x64: ms-python.vscode-python-envs
+2026-10-17 04:20:59.595 [info] Renamed to /home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.40.0-linux-x64
+2026-10-17 04:20:59.617 [info] Marked extension as removed ms-python.vscode-python-envs-1.38.0-linux-x64
+2026-10-17 04:20:59.623 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/sunil/.vscode/extensions/extensions.json
+2026-10-17 04:21:00.524 [info] Extracted extension to file:///home/sunil/.vscode/extensions/ms-python.python-2026.10.0-linux-x64: ms-python.python
+2026-10-17 04:21:00.576 [info] Renamed to /home/sunil/.vscode/extensions/ms-python.python-2026.10.0-linux-x64
+2026-10-17 04:21:00.600 [info] Marked extension as removed ms-python.python-2026.8.0-linux-x64
+2026-10-17 04:21:00.601 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/sunil/.vscode/extensions/extensions.json

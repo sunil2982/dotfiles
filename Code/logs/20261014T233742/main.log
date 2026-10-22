@@ -1,0 +1,13 @@
+2026-10-14 23:37:42.539 [info] [node-compile-cache] main: packaged cache inactive (status: disabled, configured: /usr/share/code/resources/app/node-compile-cache/main, active: none)
+2026-10-14 23:37:42.545 [info] StorageMainService: creating application shared storage
+2026-10-14 23:37:42.653 [info] [shared storage] Creating shared storage database at '/home/sunil/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-10-14 23:37:42.653 [info] [shared storage] Initializing fallback application storage (path: /home/sunil/.config/Code/User/globalStorage/state.vscdb)
+2026-10-14 23:37:42.692 [info] [shared storage] Fallback application storage initialized with 107 items
+2026-10-14 23:37:43.275 [info] update#setState idle
+2026-10-14 23:37:43.330 [info] AgentHostProcessManager: agent host started
+2026-10-14 23:37:43.918 [error] [AgentHost:stderr] (node:7287) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-10-14 23:38:13.279 [info] update#setState checking for updates
+2026-10-14 23:38:13.374 [info] update#setState available for download
+2026-10-14 23:46:12.486 [info] Extension host with pid 7315 exited with code: 0, signal: unknown.

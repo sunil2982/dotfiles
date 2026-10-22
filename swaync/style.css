@@ -185,7 +185,7 @@ notificationwindow, blankwindow {
 .floating-notifications.background .notification {
   padding: 7px;
   border-radius: 1px;
-  background-color: @surface;
+  background-color: alpha(@surface,0.7);
 }
 
 .floating-notifications.background .notification.critical {

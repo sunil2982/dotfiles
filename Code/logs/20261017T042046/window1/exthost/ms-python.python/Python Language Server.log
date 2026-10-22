@@ -1,0 +1,39 @@
+2026-10-17 04:21:32.312 [info] Client: Pylance client (2026.4.1) started with python extension (2026.10.0)
+2026-10-17 04:21:32.869 [info] (102526): Server root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-17 04:21:32.921 [info] (102526): Pylance language server 2026.4.1 (pyright version 1.1.414, commit 0653de23) starting
+2026-10-17 04:21:32.921 [info] (102526): Starting service instance "cody" for workspace "/home/sunil/Documents/Envs/cody"
+2026-10-17 04:21:33.864 [info] (102526): Loading background bundle file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/sunil/Documents/Envs/cody...
+2026-10-17 04:21:33.921 [info] (102526): Starting Mcp server id:35973 ...
+2026-10-17 04:21:33.935 [info] (102526): FG(cody): Setting environmentName for service "cody": "Python 3.14.8"
+2026-10-17 04:21:33.936 [info] (102526): FG(cody): Setting pythonPath for service "cody": "/usr/bin/python"
+2026-10-17 04:21:33.936 [info] (102526): FG(cody): No include entries specified; assuming /home/sunil/Documents/Envs/cody
+2026-10-17 04:21:33.937 [info] (102526): FG(cody): Auto-excluding **/node_modules
+2026-10-17 04:21:33.937 [info] (102526): FG(cody): Auto-excluding **/__pycache__
+2026-10-17 04:21:33.937 [info] (102526): FG(cody): Auto-excluding **/.*
+2026-10-17 04:21:33.937 [info] (102526): FG(cody): Auto-excluding **/__editable__.*
+2026-10-17 04:21:33.965 [info] (102526): FG(cody): Assuming Python version 3.14.8.final.0
+2026-10-17 04:21:34.048 [info] (102526): FG(cody): Found 52 source files
+2026-10-17 04:21:34.081 [info] (102526): Settings have not changed. Skipping update.
+2026-10-17 04:21:34.260 [info] (102526): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-10-17 04:21:34.377 [info] (102526): PQ(cody): Priority queue background worker(2) root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-17 04:21:34.383 [info] (102526): PQ(cody): Priority queue background worker(2) started
+2026-10-17 04:21:34.526 [info] (102526): [Editable Installs] No sandbox available for Python /usr/bin/python. Dynamic pth file resolution requires Python 3.13 or later.
+2026-10-17 04:21:34.861 [info] (102526): FG(cody): IDX(cody): Indexer background runner(3) root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist (index)
+2026-10-17 04:21:34.861 [info] (102526): FG(cody): IDX(cody): Indexing(3) started
+2026-10-17 04:21:35.340 [info] (102526): FG(cody): IDX(cody): scanned(3) 57 files over 1 exec env
+2026-10-17 04:21:36.013 [info] (102526): FG(cody): IDX(cody): indexed(3) 57 files over 1 exec env
+2026-10-17 04:21:36.030 [info] (102526): FG(cody): IDX(cody): Indexing finished(3).
+2026-10-17 04:43:01.477 [info] (102526): Starting service instance "<default>" for workspace ""
+2026-10-17 04:43:01.481 [info] (102526): Loading background bundle file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into ...
+2026-10-17 04:43:01.523 [info] (102526): FG(<default>): Setting environmentName for service "<default>": "Python 3.14.8"
+2026-10-17 04:43:01.523 [info] (102526): FG(<default>): Setting pythonPath for service "<default>": "/usr/bin/python"
+2026-10-17 04:43:01.523 [info] (102526): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-10-17 04:43:01.524 [info] (102526): FG(<default>): Auto-excluding **/node_modules
+2026-10-17 04:43:01.524 [info] (102526): FG(<default>): Auto-excluding **/__pycache__
+2026-10-17 04:43:01.524 [info] (102526): FG(<default>): Auto-excluding **/.*
+2026-10-17 04:43:01.524 [info] (102526): FG(<default>): Auto-excluding **/__editable__.*
+2026-10-17 04:43:01.554 [info] (102526): FG(<default>): Assuming Python version 3.14.8.final.0
+2026-10-17 04:43:01.604 [error] (102526): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-10-17 04:43:01.604 [info] (102526): FG(<default>): No source files found.
+2026-10-17 04:43:01.935 [info] (102526): PQ(<default>): Priority queue background worker(5) root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-10-17 04:43:01.937 [info] (102526): PQ(<default>): Priority queue background worker(5) started

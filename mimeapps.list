@@ -1,12 +1,16 @@
 [Default Applications]
 image/png=org.gnome.Loupe.desktop
 image/jpeg=org.gnome.Loupe.desktop
-text/plain=code.desktop
+text/plain=org.gnome.TextEditor.desktop
 application/x-zerosize=code.desktop
+text/x-lua=com.microsoft.VSCode.desktop
+text/css=com.microsoft.VSCode.desktop
 
 [Added Associations]
 image/png=swayimg.desktop;org.gnome.Loupe.desktop;
 image/jpeg=org.gnome.Loupe.desktop;
-text/plain=code.desktop;
+text/plain=code.desktop;org.gnome.TextEditor.desktop;
 inode/directory=thunar.desktop;
 application/x-zerosize=code.desktop;
+text/x-lua=com.microsoft.VSCode.desktop;
+text/css=com.microsoft.VSCode.desktop;

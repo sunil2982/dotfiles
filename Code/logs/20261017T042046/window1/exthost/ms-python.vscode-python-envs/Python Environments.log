@@ -1,0 +1,154 @@
+2026-10-17 04:21:31.115 [info] Python-envs extension version: 1.40.0
+2026-10-17 04:21:31.115 [info] 
+=== Python Envs Configuration Levels ===
+2026-10-17 04:21:31.115 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-10-17 04:21:31.115 [info] Python API: Projects changed. Added: 1, Removed: 0
+2026-10-17 04:21:31.115 [info] [pet] Starting Python Locator /home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.40.0-linux-x64/python-env-tools/bin/pet server
+2026-10-17 04:21:31.115 [info] Registering conda manager (environments will be discovered lazily)
+2026-10-17 04:21:31.115 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-10-17 04:21:31.115 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-10-17 04:21:31.115 [info] Registering poetry manager (environments will be discovered lazily)
+2026-10-17 04:21:31.115 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-10-17 04:21:31.115 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/sunil/Documents/Envs/cody"],"environmentDirectories":["/home/sunil/Documents/Envs/cody/.venv","/home/sunil/Documents/Envs/cody/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/sunil/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-10-17 04:21:31.143 [info] Extension for manager ms-python.python:venv is not active: Activating...
+2026-10-17 04:21:31.143 [info] Discovered env: /usr/bin/python
+2026-10-17 04:21:31.152 [info] [SYS_SET] scope=/home/sunil/Documents/Envs/cody, project=/home/sunil/Documents/Envs/cody, normalizedKey=/home/sunil/Documents/Envs/cody, env=Python 3.14.8-qddegy0r1c
+2026-10-17 04:21:31.230 [info] Python API: Changed environment from undefined to Python 3.14.8 for: /home/sunil/Documents/Envs/cody
+2026-10-17 04:21:31.230 [info] Internal: Changed environment from undefined to Python 3.14.8 for: /home/sunil/Documents/Envs/cody
+2026-10-17 04:21:31.231 [info] [interpreterSelection] cody: Python 3.14.8 (source: autoDiscovery)
+2026-10-17 04:21:31.231 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-10-17 04:21:31.257 [info] Refreshing conda environments (hardRefresh=false)
+2026-10-17 04:21:31.258 [warning] No conda manager found in native finder data
+2026-10-17 04:21:31.258 [warning] No conda manager found in native finder data
+2026-10-17 04:21:31.259 [info] Conda not found, conda features will be inactive.
+2026-10-17 04:21:31.262 [info] Refreshing pyenv environments
+2026-10-17 04:21:31.267 [info] Pipenv not found via settings, cache, or PATH
+2026-10-17 04:21:31.268 [info] Refreshing pipenv environments
+2026-10-17 04:21:31.268 [info] Pipenv not found via settings, cache, or PATH
+2026-10-17 04:21:31.268 [info] Found 0 pipenv environments
+2026-10-17 04:21:31.270 [info] Pipenv not found via settings, cache, or PATH
+2026-10-17 04:21:31.274 [info] Refreshing poetry environments
+2026-10-17 04:21:31.275 [info] Poetry executable not found
+2026-10-17 04:21:31.276 [info] Environment discovery complete: 1 environments found (Global: 1)
+2026-10-17 04:21:31.349 [info] Extension for manager ms-python.python:venv is now active.
+2026-10-17 04:21:31.359 [info] Python API: Changed environment from undefined to Python 3.14.8 for: global
+2026-10-17 04:21:31.359 [info] Internal: Changed environment from undefined to Python 3.14.8 for: global
+2026-10-17 04:21:31.359 [info] [interpreterSelection] global: Python 3.14.8 (source: autoDiscovery)
+2026-10-17 04:21:31.360 [info] Refreshing Conda Environments
+2026-10-17 04:21:31.360 [info] Refreshing conda environments (hardRefresh=true)
+2026-10-17 04:21:31.360 [info] Refreshing Pyenv Environments
+2026-10-17 04:21:31.360 [info] Refreshing pyenv environments
+2026-10-17 04:21:31.360 [info] Refreshing Pipenv Environments
+2026-10-17 04:21:31.360 [info] Refreshing pipenv environments
+2026-10-17 04:21:31.360 [info] Refreshing Poetry Environments
+2026-10-17 04:21:31.360 [info] Refreshing poetry environments
+2026-10-17 04:21:31.470 [info] Discovered env: /usr/bin/python
+2026-10-17 04:21:31.484 [warning] No conda manager found in native finder data
+2026-10-17 04:21:31.484 [warning] No conda manager found in native finder data
+2026-10-17 04:21:31.485 [info] Pipenv not found via settings, cache, or PATH
+2026-10-17 04:21:31.485 [info] Found 0 pipenv environments
+2026-10-17 04:21:31.488 [info] Poetry executable not found
+2026-10-17 04:21:34.102 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.113 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.123 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.135 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.144 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.153 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.550 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.558 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.567 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.575 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.582 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:34.589 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:42.565 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:42.574 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:42.582 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:42.590 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:42.599 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:42.607 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:50.240 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:50.255 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:50.264 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:50.272 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:50.280 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:50.287 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:52.203 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:52.573 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:52.584 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:52.592 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:52.600 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:21:52.607 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:38:52.152 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:38:52.162 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:38:52.172 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:38:52.180 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:38:52.189 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:38:52.197 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:39:56.649 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:39:56.666 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:39:56.676 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:39:56.685 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:39:56.694 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:39:56.704 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:02.438 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:02.450 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:02.458 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:02.466 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:02.476 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:02.484 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:03.346 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:03.354 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:03.405 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:03.417 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:03.428 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:03.442 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:08.696 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:08.706 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:08.715 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:08.725 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:08.734 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:08.744 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:12.464 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:12.484 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:12.495 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:12.503 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:12.513 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:12.520 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:17.349 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:17.361 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:17.369 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:17.378 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:17.388 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:17.396 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:18.736 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:18.746 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:18.758 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:18.766 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:18.775 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:40:18.783 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:42:35.061 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:42:35.073 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:42:35.081 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:42:35.090 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:42:35.097 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:42:35.107 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:43:02.107 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:43:02.118 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:43:02.125 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:43:02.133 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:43:02.142 [info] Resolved Python Environment /usr/bin/python
+2026-10-17 04:43:02.149 [info] Resolved Python Environment /usr/bin/python

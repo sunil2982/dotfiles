@@ -1,0 +1,5 @@
+{"timestamp":3752999,"category":"bounce.tracking.protection","name":"purge_action","extra":{"bounce_time":"1792368501","glean_timestamp":"1792665980279","site_host":"pornhub.com","is_dry_run":"true","success":"true"},"execution_counter":115}
+{"timestamp":7352927,"category":"bounce.tracking.protection","name":"purge_action","extra":{"success":"true","is_dry_run":"true","glean_timestamp":"1792669580207","bounce_time":"1792663141","site_host":"vk.ru"},"execution_counter":115}
+{"timestamp":7352927,"category":"bounce.tracking.protection","name":"purge_action","extra":{"success":"true","glean_timestamp":"1792669580207","site_host":"youporn.com","bounce_time":"1792663303","is_dry_run":"true"},"execution_counter":115}
+{"timestamp":28417459,"category":"glean","name":"restarted","extra":{"glean.startup.date":"2026-10-22T23:07+05:30","glean_timestamp":"1792690644739"},"execution_counter":116}
+{"timestamp":32015301,"category":"bounce.tracking.protection","name":"purge_action","extra":{"site_host":"9xmovies.com.mw","is_dry_run":"true","bounce_time":"1792678236","glean_timestamp":"1792694242581","success":"true"},"execution_counter":116}
