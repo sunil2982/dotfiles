@@ -1,0 +1,18 @@
+2026-11-04 08:26:11.063 [info] Environment discovery is managed by the Python Environments extension (ms-python.vscode-python-envs). Check the "Python Environments" output channel for environment-specific logs.
+2026-11-04 08:26:11.063 [info] [test-by-project] Activating project-based testing mode
+2026-11-04 08:26:11.063 [info] [test-by-project] Discovering projects for workspace: /home/sunil/Documents/Envs/cody
+2026-11-04 08:26:11.063 [info] Native locator: Refresh started
+2026-11-04 08:26:11.063 [info] [test-by-project] Found 1 total Python projects from API
+2026-11-04 08:26:11.063 [info] [test-by-project] Filtered to 1 projects in workspace
+2026-11-04 08:26:11.063 [info] [test-by-project] Creating adapter for: cody at file:///home/sunil/Documents/Envs/cody
+2026-11-04 08:26:11.267 [info] Active interpreter [/home/sunil/Documents/Envs/cody]:  /usr/bin/python
+2026-11-04 08:26:11.272 [info] [test-by-project] Registered 1 project(s) for /home/sunil/Documents/Envs/cody
+2026-11-04 08:26:11.273 [info] [test-by-project] Activated 1 project(s) for /home/sunil/Documents/Envs/cody
+2026-11-04 08:26:11.273 [info] [test-by-project] Subscribed to Python project changes
+2026-11-04 08:26:11.274 [info] [test-by-project] Subscribed to Python environment changes
+2026-11-04 08:26:11.370 [info] > pyenv which python
+2026-11-04 08:26:11.370 [info] cwd: .
+2026-11-04 08:26:11.704 [info] Active interpreter [global]:  /usr/bin/python
+2026-11-04 08:26:11.876 [info] Native locator: Refresh finished in 873 ms
+2026-11-04 08:26:12.952 [info] [test-by-project] Environment change detected; re-discovering projects for /home/sunil/Documents/Envs/cody
+2026-11-04 08:26:13.822 [info] Starting Pylance language server.

@@ -1,0 +1,58 @@
+2026-11-06 14:38:32.940 [info] Client: Pylance client (2026.4.1) started with python extension (2026.10.0)
+2026-11-06 14:38:33.672 [info] (441025): Server root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-11-06 14:38:33.675 [info] (441025): Pylance language server 2026.4.1 (pyright version 1.1.414, commit 0653de23) starting
+2026-11-06 14:38:33.684 [info] (441025): Starting service instance "cody" for workspace "/home/sunil/Documents/Envs/cody"
+2026-11-06 14:38:34.951 [info] (441025): Loading background bundle file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/sunil/Documents/Envs/cody...
+2026-11-06 14:38:35.023 [info] (441025): Starting Mcp server id:40017 ...
+2026-11-06 14:38:35.047 [info] (441025): FG(cody): Setting environmentName for service "cody": "Python 3.14.9"
+2026-11-06 14:38:35.048 [info] (441025): FG(cody): Setting pythonPath for service "cody": "/usr/bin/python"
+2026-11-06 14:38:35.048 [info] (441025): FG(cody): No include entries specified; assuming /home/sunil/Documents/Envs/cody
+2026-11-06 14:38:35.050 [info] (441025): FG(cody): Auto-excluding **/node_modules
+2026-11-06 14:38:35.051 [info] (441025): FG(cody): Auto-excluding **/__pycache__
+2026-11-06 14:38:35.051 [info] (441025): FG(cody): Auto-excluding **/.*
+2026-11-06 14:38:35.051 [info] (441025): FG(cody): Auto-excluding **/__editable__.*
+2026-11-06 14:38:35.085 [info] (441025): FG(cody): Assuming Python version 3.14.9.final.0
+2026-11-06 14:38:35.199 [info] (441025): FG(cody): Found 53 source files
+2026-11-06 14:38:35.221 [info] (441025): Settings have not changed. Skipping update.
+2026-11-06 14:38:35.565 [info] (441025): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-11-06 14:38:35.761 [info] (441025): [Editable Installs] Sandbox created successfully for Python /usr/bin/python
+2026-11-06 14:38:35.821 [info] (441025): [Editable Installs] Searching for pth files in site-packages directories: /usr/lib/python3.14/site-packages
+2026-11-06 14:38:35.822 [info] (441025): [Editable Installs] No .pth files found
+2026-11-06 14:38:35.822 [info] (441025): [Editable Installs] Completed pth file resolution. Successfully resolved 0 editable package(s).
+2026-11-06 14:38:35.859 [info] (441025): PQ(cody): Priority queue background worker(2) root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-11-06 14:38:35.859 [info] (441025): PQ(cody): Priority queue background worker(2) started
+2026-11-06 14:38:36.399 [info] (441025): FG(cody): IDX(cody): Indexer background runner(3) root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist (index)
+2026-11-06 14:38:36.399 [info] (441025): FG(cody): IDX(cody): Indexing(3) started
+2026-11-06 14:38:36.833 [info] (441025): FG(cody): IDX(cody): scanned(3) 57 files over 1 exec env
+2026-11-06 14:38:37.038 [info] (441025): FG(cody): IDX(cody): indexed(3) 57 files over 1 exec env
+2026-11-06 14:38:37.063 [info] (441025): FG(cody): IDX(cody): Indexing finished(3).
+2026-11-06 14:39:22.871 [info] (441025): Starting service instance "<default>" for workspace ""
+2026-11-06 14:39:22.871 [info] (441025): Loading background bundle file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into ...
+2026-11-06 14:39:22.912 [info] (441025): FG(<default>): Setting environmentName for service "<default>": "Python 3.14.9"
+2026-11-06 14:39:22.912 [info] (441025): FG(<default>): Setting pythonPath for service "<default>": "/usr/bin/python"
+2026-11-06 14:39:22.912 [info] (441025): FG(<default>): No include entries specified; assuming /<default workspace root>
+2026-11-06 14:39:22.912 [info] (441025): FG(<default>): Auto-excluding **/node_modules
+2026-11-06 14:39:22.912 [info] (441025): FG(<default>): Auto-excluding **/__pycache__
+2026-11-06 14:39:22.912 [info] (441025): FG(<default>): Auto-excluding **/.*
+2026-11-06 14:39:22.912 [info] (441025): FG(<default>): Auto-excluding **/__editable__.*
+2026-11-06 14:39:22.949 [info] (441025): FG(<default>): Assuming Python version 3.14.9.final.0
+2026-11-06 14:39:22.996 [error] (441025): FG(<default>): File or directory "/<default workspace root>" does not exist.
+2026-11-06 14:39:22.996 [info] (441025): FG(<default>): No source files found.
+2026-11-06 14:39:23.404 [info] (441025): PQ(<default>): Priority queue background worker(5) root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-11-06 14:39:23.406 [info] (441025): PQ(<default>): Priority queue background worker(5) started
+2026-11-06 14:45:34.718 [info] (441025): virtual workspace: vscode-terminal:/
+2026-11-06 14:45:34.722 [info] (441025): Starting service instance "<default>" for workspace "vscode-terminal:/"
+2026-11-06 14:45:34.807 [info] (441025): FG(<default>): Setting environmentName for service "<default>": "Python 3.14.9"
+2026-11-06 14:45:34.807 [info] (441025): FG(<default>): No include entries specified; assuming vscode-terminal:/
+2026-11-06 14:45:34.807 [info] (441025): FG(<default>): Auto-excluding **/node_modules
+2026-11-06 14:45:34.807 [info] (441025): FG(<default>): Auto-excluding **/__pycache__
+2026-11-06 14:45:34.807 [info] (441025): FG(<default>): Auto-excluding **/.*
+2026-11-06 14:45:34.807 [info] (441025): FG(<default>): Auto-excluding **/__editable__.*
+2026-11-06 14:45:34.861 [info] (441025): FG(<default>): Assuming Python version 3.14.9.final.0
+2026-11-06 14:45:34.932 [info] (441025): [Editable Installs] Starting dynamic pth file resolution for Python: 
+2026-11-06 14:45:35.068 [info] (441025): [Editable Installs] Sandbox created successfully for Python 
+2026-11-06 14:45:35.119 [info] (441025): [Editable Installs] Searching for pth files in site-packages directories: /usr/lib/python3.14/site-packages
+2026-11-06 14:45:35.123 [info] (441025): [Editable Installs] No .pth files found
+2026-11-06 14:45:35.123 [info] (441025): [Editable Installs] Completed pth file resolution. Successfully resolved 0 editable package(s).
+2026-11-06 14:45:35.133 [info] (441025): FG(<default>): Skipping file enumeration for non-file URI scheme "vscode-terminal".
+2026-11-06 14:45:35.133 [info] (441025): FG(<default>): No source files found.

@@ -1,0 +1,203 @@
+2026-10-25 01:44:10.836 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'agentsWindowActivation' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2026-10-25 01:44:10.920 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-25 01:44:10.945 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-10-25 01:44:11.208 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-10-25 01:44:11.315 [info] Started local extension host with pid 158136.
+2026-10-25 01:44:11.473 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): agentSessionsWorkspace
+speech
+agentsWindowConfiguration
+chatDebug
+chatHooks
+envIsConnectionMetered
+extensionsAny
+newSymbolNamesProvider
+interactive
+codeActionAI
+activeComment
+commentReveal
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+documentFiltersExclusive
+embeddings
+findTextInFiles
+findTextInFiles2
+languageModelToolSupportsModel
+findFiles2
+textSearchProvider
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+chatParticipantAdditions
+defaultChatParticipant
+contribSourceControlInputBoxMenu
+authLearnMore
+authIssuers
+testObserver
+aiTextSearchProvider
+chatParticipantPrivate
+chatProvider
+contribDebugCreateConfiguration
+chatReferenceDiagnostic
+textSearchProvider2
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelPricing
+languageModelRateLimit
+inlineCompletionsAdditions
+chatStatusItem
+chatInputNotification
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+languageModelThinkingPart
+chatSessionsProvider
+devDeviceId
+contribEditorContentMenu
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+environmentPower
+terminalTitle
+toolInvocationApproveCombination
+chatSessionCustomizationProvider
+product.json (WINS): agentSessionsWorkspace
+agentsWindowConfiguration
+interactive
+terminalDataWriteEvent
+terminalExecuteCommandEvent
+terminalSelection
+terminalQuickFixProvider
+chatParticipantAdditions
+defaultChatParticipant
+embeddings
+chatProvider
+mappedEditsProvider
+aiRelatedInformation
+aiSettingsSearch
+codeActionAI
+findTextInFiles
+findTextInFiles2
+textSearchProvider
+textSearchProvider2
+activeComment
+commentReveal
+contribSourceControlInputBoxMenu
+contribCommentEditorActionsMenu
+contribCommentThreadAdditionalMenu
+contribCommentsViewThreadMenus
+contribChatEditorInlineGutterMenu
+extensionAffinity
+newSymbolNamesProvider
+findFiles2
+chatReferenceDiagnostic
+extensionsAny
+authLearnMore
+testObserver
+aiTextSearchProvider
+documentFiltersExclusive
+chatParticipantPrivate
+contribDebugCreateConfiguration
+inlineCompletionsAdditions
+chatReferenceBinaryData
+languageModelSystem
+languageModelCapabilities
+languageModelThinkingPart
+languageModelToolSupportsModel
+chatStatusItem
+taskProblemMatcherStatus
+contribLanguageModelToolSets
+textDocumentChangeReason
+resolvers
+taskExecutionTerminal
+dataChannels
+chatSessionsProvider
+chatSessionCustomizationProvider
+devDeviceId
+contribEditorContentMenu
+tokenInformation
+toolInvocationApproveCombination
+chatPromptFiles
+mcpServerDefinitions
+tabInputMultiDiff
+workspaceTrust
+chatHooks
+chatDebug
+envIsConnectionMetered
+environmentPower
+terminalTitle
+languageModelPricing
+chatInputNotification
+speech
+DELTA: authIssuers
+languageModelRateLimit
+2026-10-25 01:44:11.948 [info] [RemoteAgentHostProtocol] Sending initialize: address=local clientId=9167004e-1afb-4046-bd58-98daed745b18 requestId=1
+2026-10-25 01:44:12.114 [info] [RemoteAgentHostProtocol] Initialized: address=local clientId=9167004e-1afb-4046-bd58-98daed745b18 durationMs=1168
+2026-10-25 01:44:12.119 [info] [AgentHost:renderer] Protocol connection established; clientId=9167004e-1afb-4046-bd58-98daed745b18
+2026-10-25 01:44:12.466 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: blade
+2026-10-25 01:44:12.467 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: ejs
+2026-10-25 01:44:12.468 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: latte
+2026-10-25 01:44:12.469 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: tpl
+2026-10-25 01:44:12.469 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: twig
+2026-10-25 01:44:12.469 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: vue
+2026-10-25 01:44:12.469 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: vue-html
+2026-10-25 01:44:12.470 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: erb
+2026-10-25 01:44:12.470 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: HTML (Eex)
+2026-10-25 01:44:12.470 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: volt
+2026-10-25 01:44:12.470 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: nunjucks
+2026-10-25 01:44:12.470 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: sass
+2026-10-25 01:44:12.470 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: svelte
+2026-10-25 01:44:12.471 [error] [AnbuselvanRocky.bootstrap5-vscode]: Unknown language in `contributes.bootstrap5-vscode.language`. Provided value: njk
+2026-10-25 01:44:12.544 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-25 01:44:12.739 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:12.904 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:12.905 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:12.948 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:12.962 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:12.963 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:12.969 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:12.969 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:12.970 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:12.973 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:12.975 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:12.975 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:12.978 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:12.978 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:12.981 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:12.986 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:12.989 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:12.994 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:13.059 [info] [RemoteAgentHost] Reconciling: desired=[], current=[]
+2026-10-25 01:44:13.128 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-10-25 01:44:13.515 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:13.515 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:13.516 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:13.517 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:13.517 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:44:13.518 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:44:14.242 [info] [perf] Render performance baseline is 26ms
+2026-10-25 01:44:14.914 [error] [Extension Host] (node:158136) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-10-25 01:44:17.544 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-10-25 01:50:01.240 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:50:01.243 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:50:01.247 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:50:01.247 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:50:01.249 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:50:01.249 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:50:01.250 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:50:01.250 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:50:01.251 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:50:01.251 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com
+2026-10-25 01:50:01.252 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos
+2026-10-25 01:50:01.252 [info] [AgentHost] No signed-in session resolved for resource: https://api.github.com/repos

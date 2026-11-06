@@ -133,10 +133,10 @@ hl.config({
 
     decoration = {
         rounding       = 0,
-        rounding_power = 0,
+        rounding_power = 1,
 
         -- Change transparency of focused and unfocused windows
-        active_opacity   = 0.95,
+        active_opacity   = 0.90,
         inactive_opacity = 0.80,
         fullscreen_opacity =1.0,
 
@@ -277,7 +277,7 @@ hl.device({
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
-hl.bind(mainMod .. " + C", hl.dsp.exec_cmd(terminal))
+hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("firefox"))
 local closeWindowBind = hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
@@ -473,5 +473,12 @@ hl.window_rule = ({
     match = {class= "waypaper"},
     center= true,
     opacity =  0.9,
+    
+})
+
+hl.layer_rule({
+    match = { namespace = "rofi" },
+    blur = true,
+    ignore_alpha = 0.15,
     
 })

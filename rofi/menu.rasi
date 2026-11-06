@@ -70,6 +70,8 @@ listview {
     columns: 1;
     lines: 6;
     background-color: transparent;
+    border: 1px;
+    border-color: #ffffff
 }
 
 element {
@@ -93,4 +95,6 @@ element-text {
 element selected {
     background-color: @bg-selected;
     text-color: @text-sel;
+    border: 1px;
+    border-color: #ffffff;
 }

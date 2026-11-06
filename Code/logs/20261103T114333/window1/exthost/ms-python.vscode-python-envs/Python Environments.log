@@ -1,0 +1,64 @@
+2026-11-03 11:43:38.041 [info] Python-envs extension version: 1.40.0
+2026-11-03 11:43:38.041 [info] 
+=== Python Envs Configuration Levels ===
+2026-11-03 11:43:38.041 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-11-03 11:43:38.041 [info] Python API: Projects changed. Added: 1, Removed: 0
+2026-11-03 11:43:38.041 [info] [pet] Starting Python Locator /home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.40.0-linux-x64/python-env-tools/bin/pet server
+2026-11-03 11:43:38.041 [info] Registering conda manager (environments will be discovered lazily)
+2026-11-03 11:43:38.041 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-11-03 11:43:38.041 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-11-03 11:43:38.041 [info] Registering poetry manager (environments will be discovered lazily)
+2026-11-03 11:43:38.041 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-11-03 11:43:38.041 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/sunil/Documents/Envs/cody"],"environmentDirectories":["/home/sunil/Documents/Envs/cody/.venv","/home/sunil/Documents/Envs/cody/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/sunil/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-11-03 11:43:38.071 [info] Discovered env: /usr/bin/python
+2026-11-03 11:43:38.254 [info] [SYS_SET] scope=/home/sunil/Documents/Envs/cody, project=/home/sunil/Documents/Envs/cody, normalizedKey=/home/sunil/Documents/Envs/cody, env=Python 3.14.9-sx38za2qxtl
+2026-11-03 11:43:38.330 [info] Extension for manager ms-python.python:venv is not active: Activating...
+2026-11-03 11:43:38.400 [info] Extension for manager ms-python.python:venv is now active.
+2026-11-03 11:43:38.407 [info] Python API: Changed environment from undefined to Python 3.14.9 for: /home/sunil/Documents/Envs/cody
+2026-11-03 11:43:38.407 [info] Internal: Changed environment from undefined to Python 3.14.9 for: /home/sunil/Documents/Envs/cody
+2026-11-03 11:43:38.408 [info] [interpreterSelection] cody: Python 3.14.9 (source: autoDiscovery)
+2026-11-03 11:43:38.408 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-11-03 11:43:38.431 [info] Refreshing Conda Environments
+2026-11-03 11:43:38.431 [info] Refreshing conda environments (hardRefresh=true)
+2026-11-03 11:43:38.431 [info] Refreshing Pyenv Environments
+2026-11-03 11:43:38.431 [info] Refreshing pyenv environments
+2026-11-03 11:43:38.431 [info] Refreshing Pipenv Environments
+2026-11-03 11:43:38.431 [info] Refreshing pipenv environments
+2026-11-03 11:43:38.431 [info] Refreshing Poetry Environments
+2026-11-03 11:43:38.431 [info] Refreshing poetry environments
+2026-11-03 11:43:38.560 [info] Discovered env: /usr/bin/python
+2026-11-03 11:43:38.561 [info] Python API: Changed environment from undefined to Python 3.14.9 for: global
+2026-11-03 11:43:38.561 [info] Internal: Changed environment from undefined to Python 3.14.9 for: global
+2026-11-03 11:43:38.561 [info] [interpreterSelection] global: Python 3.14.9 (source: autoDiscovery)
+2026-11-03 11:43:38.581 [info] Refreshing conda environments (hardRefresh=false)
+2026-11-03 11:43:38.592 [warning] No conda manager found in native finder data
+2026-11-03 11:43:38.592 [warning] No conda manager found in native finder data
+2026-11-03 11:43:38.592 [info] Pipenv not found via settings, cache, or PATH
+2026-11-03 11:43:38.592 [info] Found 0 pipenv environments
+2026-11-03 11:43:38.600 [info] Poetry executable not found
+2026-11-03 11:43:38.601 [warning] No conda manager found in native finder data
+2026-11-03 11:43:38.601 [warning] No conda manager found in native finder data
+2026-11-03 11:43:38.602 [info] Pipenv not found via settings, cache, or PATH
+2026-11-03 11:43:38.603 [info] Refreshing pipenv environments
+2026-11-03 11:43:38.604 [info] Conda not found, conda features will be inactive.
+2026-11-03 11:43:38.607 [info] Refreshing pyenv environments
+2026-11-03 11:43:38.608 [info] Refreshing poetry environments
+2026-11-03 11:43:38.627 [info] Pipenv not found via settings, cache, or PATH
+2026-11-03 11:43:38.627 [info] Found 0 pipenv environments
+2026-11-03 11:43:38.630 [info] Poetry executable not found
+2026-11-03 11:43:38.634 [info] Pipenv not found via settings, cache, or PATH
+2026-11-03 11:43:38.705 [info] Environment discovery complete: 1 environments found (Global: 1)

@@ -1,0 +1,7 @@
+2026-11-05 08:26:17.247 [info] Getting Manifest... ms-python.vscode-python-envs
+2026-11-05 08:26:17.749 [info] Installing extension: ms-python.vscode-python-envs {"productVersion":{"version":"1.145.0","date":"2026-11-03T23:15:51.169Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/sunil/.vscode/extensions/extensions.json","path":"/home/sunil/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-11-05 08:26:22.041 [info] Extension signature verification result for ms-python.vscode-python-envs: Success. Internal Code: 0. Executed: true. Duration: 1753ms.
+2026-11-05 08:26:22.249 [info] Extracted extension to file:///home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.42.0-linux-x64: ms-python.vscode-python-envs
+2026-11-05 08:26:22.257 [info] Renamed to /home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.42.0-linux-x64
+2026-11-05 08:26:22.275 [info] Marked extension as removed ms-python.vscode-python-envs-1.40.0-linux-x64
+2026-11-05 08:26:22.280 [info] Extension installed successfully: ms-python.vscode-python-envs vscode-userdata:/home/sunil/.vscode/extensions/extensions.json

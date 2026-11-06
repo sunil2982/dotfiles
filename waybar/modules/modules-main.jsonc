@@ -98,6 +98,9 @@
         //     "default": ""
         // },
         "format-icons": {
+            "urgent": "",
+            "active": "",
+            "default": ""
             // for arch
             // "active": "󰮯",
             // "default": ""

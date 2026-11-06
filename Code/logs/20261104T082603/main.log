@@ -1,0 +1,47 @@
+2026-11-04 08:26:04.133 [info] [node-compile-cache] main: packaged cache enabled (status: enabled, configured: /usr/share/code/resources/app/node-compile-cache/main, active: /usr/share/code/resources/app/node-compile-cache/main/v24.22.1-x64-60e4fe36)
+2026-11-04 08:26:04.137 [info] StorageMainService: creating application shared storage
+2026-11-04 08:26:04.251 [info] [shared storage] Creating shared storage database at '/home/sunil/.vscode-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-11-04 08:26:04.252 [info] [shared storage] Initializing fallback application storage (path: /home/sunil/.config/Code/User/globalStorage/state.vscdb)
+2026-11-04 08:26:04.299 [info] [shared storage] Fallback application storage initialized with 109 items
+2026-11-04 08:26:06.175 [info] update#setState idle
+2026-11-04 08:26:06.234 [info] AgentHostProcessManager: agent host started
+2026-11-04 08:26:07.371 [error] [AgentHost:stderr] (node:25198) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+
+2026-11-04 08:26:36.180 [info] update#setState checking for updates
+2026-11-04 08:26:36.341 [info] update#setState idle
+2026-11-04 09:26:36.195 [info] update#setState checking for updates
+2026-11-04 09:26:36.899 [info] update#setState idle
+2026-11-04 10:26:36.210 [info] update#setState checking for updates
+2026-11-04 10:26:36.641 [info] update#setState idle
+2026-11-04 11:26:36.224 [info] update#setState checking for updates
+2026-11-04 11:26:36.734 [info] update#setState idle
+2026-11-04 12:26:36.239 [info] update#setState checking for updates
+2026-11-04 12:26:36.734 [info] update#setState idle
+2026-11-04 13:26:36.251 [info] update#setState checking for updates
+2026-11-04 13:26:36.757 [info] update#setState idle
+2026-11-04 14:26:36.256 [info] update#setState checking for updates
+2026-11-04 14:26:36.784 [info] update#setState idle
+2026-11-04 15:26:36.262 [info] update#setState checking for updates
+2026-11-04 15:26:37.069 [info] update#setState idle
+2026-11-04 16:26:36.266 [info] update#setState checking for updates
+2026-11-04 16:26:36.650 [info] update#setState idle
+2026-11-04 17:26:36.274 [info] update#setState checking for updates
+2026-11-04 17:26:36.790 [info] update#setState idle
+2026-11-04 18:26:36.281 [info] update#setState checking for updates
+2026-11-04 18:26:36.693 [info] update#setState idle
+2026-11-04 19:26:36.286 [info] update#setState checking for updates
+2026-11-04 19:26:37.224 [info] update#setState idle
+2026-11-04 20:26:36.293 [info] update#setState checking for updates
+2026-11-04 20:26:36.850 [info] update#setState idle
+2026-11-04 21:26:36.299 [info] update#setState checking for updates
+2026-11-04 21:26:36.861 [info] update#setState idle
+2026-11-04 22:26:36.307 [info] update#setState checking for updates
+2026-11-04 22:26:36.769 [info] update#setState idle
+2026-11-04 23:26:36.312 [info] update#setState checking for updates
+2026-11-04 23:26:38.479 [info] update#setState idle
+2026-11-04 23:45:25.843 [info] update#setState checking for updates
+2026-11-04 23:45:26.778 [info] update#setState idle
+2026-11-05 00:45:25.846 [info] update#setState checking for updates
+2026-11-05 00:45:26.301 [info] update#setState available for download
+2026-11-05 08:51:23.412 [info] Extension host with pid 25234 exited with code: 0, signal: unknown.

@@ -1,0 +1,170 @@
+2026-11-06 14:38:30.969 [info] Python-envs extension version: 1.42.0
+2026-11-06 14:38:30.969 [info] 
+=== Python Envs Configuration Levels ===
+2026-11-06 14:38:30.969 [info] {
+  "section": "Python Envs Configuration Levels",
+  "defaultEnvManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:venv"
+  },
+  "defaultPackageManager": {
+    "workspaceFolderValue": "undefined",
+    "workspaceValue": "undefined",
+    "globalValue": "undefined",
+    "defaultValue": "ms-python.python:pip"
+  }
+}
+2026-11-06 14:38:30.969 [info] Python API: Projects changed. Added: 1, Removed: 0
+2026-11-06 14:38:30.969 [info] [pet] Starting Python Locator /home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.42.0-linux-x64/python-env-tools/bin/pet server
+2026-11-06 14:38:30.969 [info] Registering conda manager (environments will be discovered lazily)
+2026-11-06 14:38:30.969 [info] Registering pyenv manager (environments will be discovered lazily)
+2026-11-06 14:38:30.969 [info] Registering pipenv manager (environments will be discovered lazily)
+2026-11-06 14:38:30.969 [info] Registering poetry manager (environments will be discovered lazily)
+2026-11-06 14:38:30.969 [info] [interpreterSelection] Applying initial environment selection for 1 workspace folder(s)
+2026-11-06 14:38:30.969 [info] [pet] configure: Sending configuration update: {"workspaceDirectories":["/home/sunil/Documents/Envs/cody"],"environmentDirectories":["/home/sunil/Documents/Envs/cody/.venv","/home/sunil/Documents/Envs/cody/*/.venv"],"pipenvExecutable":"pipenv","poetryExecutable":"poetry","cacheDirectory":"/home/sunil/.config/Code/User/globalStorage/ms-python.vscode-python-envs/pythonLocator"}
+2026-11-06 14:38:31.008 [info] Discovered env: /usr/bin/python
+2026-11-06 14:38:31.025 [info] [SYS_SET] scope=/home/sunil/Documents/Envs/cody, project=/home/sunil/Documents/Envs/cody, normalizedKey=/home/sunil/Documents/Envs/cody, env=Python 3.14.9-czwabl94uga
+2026-11-06 14:38:31.102 [info] Extension for manager ms-python.python:venv is not active: Activating...
+2026-11-06 14:38:31.284 [info] Python API: Changed environment from undefined to Python 3.14.9 for: /home/sunil/Documents/Envs/cody
+2026-11-06 14:38:31.284 [info] Internal: Changed environment from undefined to Python 3.14.9 for: /home/sunil/Documents/Envs/cody
+2026-11-06 14:38:31.286 [info] [interpreterSelection] cody: Python 3.14.9 (source: autoDiscovery)
+2026-11-06 14:38:31.286 [info] [interpreterSelection] Workspace env resolved, deferring global scope to background
+2026-11-06 14:38:31.396 [info] Refreshing conda environments (hardRefresh=false)
+2026-11-06 14:38:31.400 [warning] No conda manager found in native finder data
+2026-11-06 14:38:31.400 [warning] No conda manager found in native finder data
+2026-11-06 14:38:31.405 [info] Python API: Changed environment from undefined to Python 3.14.9 for: global
+2026-11-06 14:38:31.405 [info] Internal: Changed environment from undefined to Python 3.14.9 for: global
+2026-11-06 14:38:31.405 [info] [interpreterSelection] global: Python 3.14.9 (source: autoDiscovery)
+2026-11-06 14:38:31.409 [info] Conda not found, conda features will be inactive.
+2026-11-06 14:38:31.449 [info] Extension for manager ms-python.python:venv is now active.
+2026-11-06 14:38:31.453 [info] Refreshing Pyenv Environments
+2026-11-06 14:38:31.453 [info] Refreshing pyenv environments
+2026-11-06 14:38:31.453 [info] Refreshing Pipenv Environments
+2026-11-06 14:38:31.453 [info] Refreshing pipenv environments
+2026-11-06 14:38:31.453 [info] Refreshing Poetry Environments
+2026-11-06 14:38:31.453 [info] Refreshing poetry environments
+2026-11-06 14:38:31.454 [info] Refreshing Conda Environments
+2026-11-06 14:38:31.454 [info] Refreshing conda environments (hardRefresh=true)
+2026-11-06 14:38:31.472 [info] Refreshing pyenv environments
+2026-11-06 14:38:31.472 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:38:31.475 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:38:31.566 [info] Discovered env: /usr/bin/python
+2026-11-06 14:38:31.768 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:38:31.768 [info] Found 0 pipenv environments
+2026-11-06 14:38:31.769 [warning] No conda manager found in native finder data
+2026-11-06 14:38:31.769 [warning] No conda manager found in native finder data
+2026-11-06 14:38:31.774 [info] Poetry executable not found
+2026-11-06 14:38:31.793 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:38:31.794 [info] Refreshing pipenv environments
+2026-11-06 14:38:31.805 [info] Refreshing poetry environments
+2026-11-06 14:38:31.806 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:38:31.806 [info] Found 0 pipenv environments
+2026-11-06 14:38:31.811 [info] Poetry executable not found
+2026-11-06 14:38:31.813 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:38:31.817 [info] Environment discovery complete: 1 environments found (Global: 1)
+2026-11-06 14:38:43.386 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:38:43.387 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:38:43.404 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:38:43.417 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:38:43.431 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:38:43.445 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:38:43.459 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:38:43.497 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:39:23.501 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:39:23.503 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:39:23.514 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:39:23.528 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:39:23.541 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:39:23.552 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:39:23.562 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:39:23.574 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:20.832 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:45:20.835 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:45:20.842 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:20.852 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:20.864 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:20.877 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:20.892 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:20.972 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:34.694 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:45:34.695 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:45:34.700 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:34.709 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:34.748 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:34.789 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:34.803 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:34.814 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:35.446 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:45:35.448 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:45:35.511 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:35.526 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:35.545 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:35.556 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:35.564 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:35.575 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:55.218 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:45:55.220 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:45:55.228 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:55.235 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:55.244 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:55.251 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:55.260 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:45:55.267 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:46:33.891 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:46:33.894 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:46:33.908 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:46:33.932 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:46:33.958 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:46:33.978 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:46:33.988 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:46:33.996 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:08.880 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:47:08.884 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:47:08.892 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:08.907 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:08.918 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:08.961 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:08.972 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:08.981 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:23.017 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:47:23.019 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:47:23.023 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:23.034 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:23.041 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:23.051 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:23.062 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:23.070 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:37.321 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:47:37.323 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:47:37.329 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:37.339 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:37.350 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:37.358 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:37.365 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:47:37.372 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:52:44.582 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:52:44.584 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:52:44.591 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:52:44.599 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:52:44.612 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:52:44.623 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:52:44.637 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:52:44.648 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:30.074 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:53:30.077 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:53:30.084 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:30.096 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:30.106 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:30.114 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:30.122 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:30.129 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:47.553 [info] Unable to determine Conda version: Conda not found
+2026-11-06 14:53:47.554 [info] Pipenv not found via settings, cache, or PATH
+2026-11-06 14:53:47.559 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:47.568 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:47.576 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:47.585 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:47.593 [info] Resolved Python Environment /usr/bin/python
+2026-11-06 14:53:47.601 [info] Resolved Python Environment /usr/bin/python

@@ -59,7 +59,7 @@ entry {
     text-color: @text-sel;
     background-color: transparent;
     placeholder: "Search applications...";
-    placeholder-color: @outline-variant;
+    placeholder-color: #ffffff;
 }
 
 listview {
@@ -92,4 +92,6 @@ element-text {
 element selected {
     background-color: @bg-selected;
     text-color: @text-sel;
+    border: 1px;
+    border-color: #ffffff;
 }

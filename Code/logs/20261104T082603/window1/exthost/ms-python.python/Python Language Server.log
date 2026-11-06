@@ -1,0 +1,28 @@
+2026-11-04 08:26:13.009 [info] Client: Pylance client (2026.4.1) started with python extension (2026.10.0)
+2026-11-04 08:26:13.594 [info] (25673): Server root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-11-04 08:26:13.802 [info] (25673): Pylance language server 2026.4.1 (pyright version 1.1.414, commit 0653de23) starting
+2026-11-04 08:26:13.802 [info] (25673): Starting service instance "cody" for workspace "/home/sunil/Documents/Envs/cody"
+2026-11-04 08:26:14.985 [info] (25673): Loading background bundle file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist/copilot-background.bundle.js into file:///home/sunil/Documents/Envs/cody...
+2026-11-04 08:26:15.055 [info] (25673): Starting Mcp server id:44515 ...
+2026-11-04 08:26:15.072 [info] (25673): FG(cody): Setting environmentName for service "cody": "Python 3.14.9"
+2026-11-04 08:26:15.072 [info] (25673): FG(cody): Setting pythonPath for service "cody": "/usr/bin/python"
+2026-11-04 08:26:15.072 [info] (25673): FG(cody): No include entries specified; assuming /home/sunil/Documents/Envs/cody
+2026-11-04 08:26:15.073 [info] (25673): FG(cody): Auto-excluding **/node_modules
+2026-11-04 08:26:15.073 [info] (25673): FG(cody): Auto-excluding **/__pycache__
+2026-11-04 08:26:15.073 [info] (25673): FG(cody): Auto-excluding **/.*
+2026-11-04 08:26:15.074 [info] (25673): FG(cody): Auto-excluding **/__editable__.*
+2026-11-04 08:26:15.109 [info] (25673): FG(cody): Assuming Python version 3.14.9.final.0
+2026-11-04 08:26:15.226 [info] (25673): FG(cody): Found 53 source files
+2026-11-04 08:26:15.242 [info] (25673): Settings have not changed. Skipping update.
+2026-11-04 08:26:15.322 [info] (25673): [Editable Installs] Starting dynamic pth file resolution for Python: /usr/bin/python
+2026-11-04 08:26:15.461 [info] (25673): [Editable Installs] Sandbox created successfully for Python /usr/bin/python
+2026-11-04 08:26:15.504 [info] (25673): [Editable Installs] Searching for pth files in site-packages directories: /usr/lib/python3.14/site-packages
+2026-11-04 08:26:15.505 [info] (25673): [Editable Installs] No .pth files found
+2026-11-04 08:26:15.505 [info] (25673): [Editable Installs] Completed pth file resolution. Successfully resolved 0 editable package(s).
+2026-11-04 08:26:15.597 [info] (25673): PQ(cody): Priority queue background worker(2) root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist
+2026-11-04 08:26:15.599 [info] (25673): PQ(cody): Priority queue background worker(2) started
+2026-11-04 08:26:16.116 [info] (25673): FG(cody): IDX(cody): Indexer background runner(3) root directory: file:///home/sunil/.vscode/extensions/ms-python.vscode-pylance-2026.4.1/dist (index)
+2026-11-04 08:26:16.117 [info] (25673): FG(cody): IDX(cody): Indexing(3) started
+2026-11-04 08:26:16.657 [info] (25673): FG(cody): IDX(cody): scanned(3) 57 files over 1 exec env
+2026-11-04 08:26:17.137 [info] (25673): FG(cody): IDX(cody): indexed(3) 57 files over 1 exec env
+2026-11-04 08:26:17.151 [info] (25673): FG(cody): IDX(cody): Indexing finished(3).

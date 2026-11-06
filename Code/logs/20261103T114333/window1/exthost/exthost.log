@@ -1,0 +1,67 @@
+2026-11-03 11:43:35.987 [info] Extension host with pid 747758 started
+2026-11-03 11:43:35.987 [info] Skipping acquiring lock for /home/sunil/.config/Code/User/workspaceStorage/45b00c7a0be7dea3e3920597f45caf4b.
+2026-11-03 11:43:36.366 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-11-03 11:43:36.403 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-11-03 11:43:36.424 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2026-11-03 11:43:36.438 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2026-11-03 11:43:36.692 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2026-11-03 11:43:37.076 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2026-11-03 11:43:37.316 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-11-03 11:43:37.320 [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense, startup: true, activationEvent: '*'
+2026-11-03 11:43:37.342 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2026-11-03 11:43:37.345 [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+2026-11-03 11:43:37.608 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-11-03 11:43:37.682 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-11-03 11:43:37.752 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-11-03 11:43:38.016 [info] Eager extensions activated
+2026-11-03 11:43:38.016 [info] [node-compile-cache] extension-host: packaged cache enabled (status: enabled, configured: /usr/share/code/resources/app/node-compile-cache/extension-host, active: /usr/share/code/resources/app/node-compile-cache/extension-host/v24.22.1-x64-60e4fe36)
+2026-11-03 11:43:38.186 [info] ExtensionService#_doActivateExtension TypeScriptTeam.jsts-chat-features, startup: false, activationEvent: 'onStartupFinished'
+2026-11-03 11:43:38.217 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-11-03 11:43:38.219 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-11-03 11:43:38.242 [info] ExtensionService#_doActivateExtension mskelton.one-dark-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-11-03 11:43:38.463 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2026-11-03 11:43:39.066 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-11-03 11:43:41.527 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2026-11-03 12:19:55.989 [info] Extension host terminating: received terminate message from renderer
+2026-11-03 12:19:56.017 [error] An error occurred when disposing the subscriptions for extension 'ms-python.vscode-python-envs':
+2026-11-03 12:19:56.018 [error] Error: Channel has been closed
+    at i (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:3935)
+    at Object.error (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:172:4394)
+    at Object.dispose (/home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.40.0-linux-x64/dist/extension.js:2:810930)
+    at /home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.40.0-linux-x64/dist/extension.js:2:809517
+    at Array.forEach (<anonymous>)
+    at D.dispose (/home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.40.0-linux-x64/dist/extension.js:2:809504)
+    at Qn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:9:17515)
+    at nA._fn (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:18602)
+    at nA.dispose (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:26:577)
+    at vD._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:14919)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:12221
+    at Array.map (<anonymous>)
+    at vD._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:12209)
+    at vD.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:12560)
+    at r.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:1076)
+    at el (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:476:11656)
+    at Am.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:476:9798)
+    at w._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3644)
+    at w.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3962)
+    at la.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:8627)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:476:8030)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-11-03 12:19:56.021 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+    at Object.ce [as deactivate] (/home/sunil/.vscode/extensions/ms-python.vscode-python-envs-1.40.0-linux-x64/dist/extension.js:2:1037080)
+    at vD._deactivate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:14694)
+    at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:12221
+    at Array.map (<anonymous>)
+    at vD._deactivateAll (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:12209)
+    at vD.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:169:12560)
+    at r.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:171:1076)
+    at el (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:476:11656)
+    at Am.value (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:476:9798)
+    at w._deliver (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3644)
+    at w.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3962)
+    at la.fire (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:8627)
+    at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:476:8030)
+    at MessagePortMain.emit (node:events:514:28)
+    at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-11-03 12:19:56.022 [info] Extension host with pid 747758 exiting with code 0

@@ -1,0 +1,15 @@
+2026-11-06 07:50:52.837 [info] [getSessions] [all] starting
+2026-11-06 07:50:52.837 [info] [getSessions] [all] returned 0 session(s)
+2026-11-06 07:50:52.837 [info] [getSessions] [all] starting
+2026-11-06 07:50:52.837 [info] [getSessions] [all] returned 0 session(s)
+2026-11-06 07:50:52.838 [info] [getSessions] [all] starting
+2026-11-06 07:50:52.838 [info] [getSessions] [all] returned 0 session(s)
+2026-11-06 07:50:52.838 [info] [getSessions] [12f6db80-0741-4a7e-b9c5-b85d737b3a31/.default] starting
+2026-11-06 07:50:52.838 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-11-06 07:50:53.854 [info] [getSessions] [all] starting
+2026-11-06 07:50:53.854 [info] [getSessions] [all] returned 0 session(s)
+2026-11-06 07:51:07.106 [info] [getSessions] [12f6db80-0741-4a7e-b9c5-b85d737b3a31/.default] starting
+2026-11-06 07:51:07.106 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-11-06 07:51:13.963 [info] [getSessions] [12f6db80-0741-4a7e-b9c5-b85d737b3a31/.default] starting
+2026-11-06 07:51:13.963 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker enabled: false
+2026-11-06 07:58:15.932 [info] Microsoft Authentication is deactivating...
