@@ -1,0 +1,35 @@
+2026-11-07 09:11:37.111 [info] Agent Host process started successfully
+2026-11-07 09:11:37.156 [info] AgentService initialized
+2026-11-07 09:11:37.174 [info] Registering agent provider: copilotcli
+2026-11-07 09:11:37.177 [info] Registering agent provider: claude
+2026-11-07 09:11:37.179 [info] [Copilot] Auto presentation: Auto beside HydraFusion (fallback): CAPI provided no Auto tiers; HydraFusion setting adds [none]
+2026-11-07 09:11:37.179 [info] Registering agent provider: codex
+2026-11-07 09:11:37.185 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-07 09:11:37.186 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-07 09:11:37.224 [info] [Claude] Models refreshed (merged). Count: 0, 
+2026-11-07 09:11:37.238 [info] [WebSocketProtocol] Server listening on socket /tmp/vscode-ah-5d9e50b103ae/Zms1FdKJ1oInMfmm9JJ9wA.sock
+2026-11-07 09:11:37.239 [info] [Claude] SDK not downloaded yet; deferring the migratable chat list
+2026-11-07 09:11:37.247 [info] [AgentService] sessions_v2 import for provider copilotcli: 0 synchronized, 0 current, 0 excluded, 0 stale exclusions, 0 incomplete, 0 failed, marker set in 60ms (0 db opens, 0 db stats)
+2026-11-07 09:11:37.255 [info] [node-compile-cache] agent-host: packaged cache enabled (status: enabled, configured: /usr/share/code/resources/app/node-compile-cache/agent-host, active: /usr/share/code/resources/app/node-compile-cache/agent-host/v24.22.1-x64-60e4fe36)
+2026-11-07 09:11:37.257 [info] [CommandAutoApprover] Tree-sitter initialized (bash=available, powershell=available)
+2026-11-07 09:11:37.379 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-07 09:11:37.468 [info] [ProtocolServer] Initialize: clientId=04b95bd3-7fe1-4896-840c-6da41d5c1aa2, protocolVersions=[1.0.0, 0.10.0, 0.9.0]
+2026-11-07 09:11:38.191 [info] [AgentService] pruned 0 stale external session row(s) older than 30 days
+2026-11-07 09:11:38.192 [info] [CopilotDiscovery] Started: maxCandidateWatches=32, maxConcurrentStats=4, coalesceMs=500
+2026-11-07 09:11:38.196 [info] [CopilotDiscovery] Scan 1 started: initial=true, candidates=0, reasons={}, watched=0, pending=0, ignoredHostEvents=0
+2026-11-07 09:11:38.197 [info] [Copilot] Listing discoverable chats...
+2026-11-07 09:11:38.198 [info] [Copilot] Starting CopilotClient...
+2026-11-07 09:11:38.199 [info] [Copilot] Enabled runtime feature flag DYNAMIC_AUTO_TIERS
+2026-11-07 09:11:38.200 [info] [Copilot] Set CLI env: GITHUB_COPILOT_INTEGRATION_ID=vscode-chat
+2026-11-07 09:11:38.200 [info] [Copilot] Enabled repository-size-gated tgrep indexed search
+2026-11-07 09:11:38.205 [info] [Claude] SDK not downloaded yet; deferring chat discovery
+2026-11-07 09:11:38.206 [info] [Copilot] Using bundled runtime path: /usr/share/code/resources/app/node_modules.asar.unpacked/@github/copilot-sdk-linux-x64/prebuilds/linux-x64/copilot-runtime
+2026-11-07 09:11:38.400 [info] [Copilot] CopilotClient started successfully
+2026-11-07 09:11:38.405 [info] [Copilot] Listed 0 SDK session(s) for discoverable chats
+2026-11-07 09:11:38.414 [info] [CopilotDiscovery] Scan 1 catalog: sdkSessions=0, candidates=0, listMs=208, classifyMs=9, published=0, external=0, legacy=0, known=0, disabledLegacy=0, archivedLegacy=0, missingCwd=0, unsupportedClient=0, stale=0, failed=0
+2026-11-07 09:11:38.415 [info] [CopilotDiscovery] Scan 1 finished: elapsedMs=219, completed=0, pending=0, watched=0, overflow=0, ignoredHostEvents=0
+2026-11-07 11:02:22.291 [info] [ProtocolServer] Client disconnected: 04b95bd3-7fe1-4896-840c-6da41d5c1aa2, subscriptions=1
+2026-11-07 11:02:22.294 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-07 11:02:22.294 [info] [Copilot] BYOK bridge changed; refreshing models
+2026-11-07 11:02:22.297 [info] AgentService: shutting down all providers...
+2026-11-07 11:02:22.297 [info] [Copilot] Shutting down...

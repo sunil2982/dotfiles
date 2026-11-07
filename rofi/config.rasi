@@ -24,7 +24,7 @@ configuration {
     
     background-color: @bg-col;
     text-color:       @text-col;
-    font: "JetBrainsMono Nerd Font 11";
+    font: "JetBrainsMono Nerd Font 12";
 }
 
 window {
@@ -79,7 +79,7 @@ element {
 }
 
 element-icon {
-    size: 25px;
+    size: 27px;
     background-color: transparent;
 }
 

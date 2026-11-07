@@ -47,7 +47,7 @@
 
     /* --- ADD THESE TRANSPARENT VARIANTS FOR ROFI --- */
     /* The "cc" at the end adds ~80% opacity */
-    surface-transparent: #11131880;
-    container-transparent: #1d202480;
-    container-high-transparent: #282a2f80;
+    surface-transparent: #11131840;
+    container-transparent: #1d202440;
+    container-high-transparent: #282a2f40;
 }

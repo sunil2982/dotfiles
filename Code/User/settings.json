@@ -88,6 +88,5 @@
         "dropdown.border": "#111318",
         "list.activeSelectionBackground": "#a9c7ff",
         "list.activeSelectionForeground": "#111318"
-    },
-    "git.openRepositoryInParentFolders": "never"
+    }
 }

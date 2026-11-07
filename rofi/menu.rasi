@@ -13,7 +13,7 @@ configuration {
     display-drun: "  : "; 
 }
 
-@theme "/dev/null"
+@theme "velvet.rasi"
 
 * {
     bg-col:      rgba(0,0,0,0.7); 
@@ -24,7 +24,7 @@ configuration {
     
     background-color: @bg-col;
     text-color:       @text-col;
-    font: "JetBrainsMono Nerd Font 11";
+    font: "JetBrainsMono Nerd Font 12";
 }
 
 window {
@@ -82,7 +82,7 @@ element {
 }
 
 element-icon {
-    size: 25px;
+    size: 27px;
     background-color: transparent;
 }
 

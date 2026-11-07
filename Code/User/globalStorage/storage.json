@@ -7,7 +7,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1793975758755"
+                "backupFolder": "1794022896548"
             }
         ]
     },
@@ -37,7 +37,7 @@
             "file:///home/sunil/Documents/Envs/test": "__default__profile__"
         },
         "emptyWindows": {
-            "1793975758755": "__default__profile__"
+            "1794022896548": "__default__profile__"
         }
     },
     "theme": "vs-dark",
@@ -213,13 +213,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/sunil/.config/Code/Backups/1793975758755",
+            "backupPath": "/home/sunil/.config/Code/Backups/1794022896548",
             "uiState": {
                 "mode": 0,
                 "x": 16,
                 "y": 10,
                 "width": 944,
-                "height": 512
+                "height": 1025
             }
         },
         "openedWindows": []

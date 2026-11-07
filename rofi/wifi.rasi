@@ -9,7 +9,7 @@
     bg-selected:   @container-transparent; 
     text-col:      @on-surface;
     accent-col:    @primary;
-    border-col:    @outline;
+    border-col:    @on-primary-container;
     
     font: "JetBrainsMono Nerd Font 10";
     background-color: transparent;
@@ -60,7 +60,7 @@ listview {
 
 element {
     padding:         8px 12px;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 element normal active {
@@ -70,6 +70,6 @@ element normal active {
 element selected normal, element selected active {
     background-color: @bg-selected;
     text-color:        @accent-col;
-    border:            0px 0px 0px 3px;
+    border:            1px 1px 1px 1px;
     border-color:      @accent-col;
 }

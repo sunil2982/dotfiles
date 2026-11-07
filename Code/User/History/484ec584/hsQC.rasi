@@ -1,0 +1,75 @@
+/* wifi.rasi */
+
+/* 1. Import your Matugen variables first */
+@import "velvet.rasi"
+
+* {
+    /* 2. Map Matugen tokens using the transparent variants */
+    bg-col:        @surface-transparent; 
+    bg-selected:   @container-transparent; 
+    text-col:      @on-surface;
+    accent-col:    @primary;
+    border-col:    @outline;
+    
+    font: "JetBrainsMono Nerd Font 10";
+    background-color: transparent;
+    text-color: @text-col;
+}
+
+window {
+    background-color: @bg-col;
+    border:            1px;
+    border-color:      @border-col;
+    border-radius:     0px;
+    width:             450px;
+    x-offset:          0px;
+    y-offset:          0px;
+    transparency:      "real"; /* Fixed typo from transpiry */
+}
+
+mainbox {
+    padding:    15px;
+    children:   [ inputbar, listview ];
+}
+
+inputbar {
+    margin:            0px 0px 10px 0px;
+    padding:           8px 12px;
+    background-color: @bg-selected;
+    border-radius:     6px;
+    children:          [ prompt, entry ];
+}
+
+prompt {
+    text-color: @accent-col;
+    font:       "JetBrainsMono Nerd Font Bold 10";
+}
+
+entry {
+    margin:     0px 0px 0px 5px;
+    text-color: @text-col;
+}
+
+listview {
+    fixed-height: false;
+    dynamic:      true;
+    lines:        8;
+    scrollbar:    false;
+    spacing:      4px;
+}
+
+element {
+    padding:         8px 12px;
+    border-radius: 6px;
+}
+
+element normal active {
+    text-color: @accent-col;
+}
+
+element selected normal, element selected active {
+    background-color: @bg-selected;
+    text-color:        @accent-col;
+    border:            0px 0px 0px 3px;
+    border-color:      @accent-col;
+}
